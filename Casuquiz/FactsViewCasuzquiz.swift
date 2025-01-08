@@ -29,7 +29,7 @@ struct FactsViewCasuzquiz: View {
                             Text(fact.content)
                                 .withFont(size: 19.5, weight: .thin)
                                 .padding(.horizontal)
-                                .padding(.bottom, 8)
+                                .padding(.vertical, 8)
                         }
                     }
                     .padding()

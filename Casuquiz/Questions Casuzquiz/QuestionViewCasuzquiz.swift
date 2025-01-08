@@ -47,7 +47,7 @@ struct QuestionViewCasuzquiz: View {
     
     private var enterNameView: some View {
         ZStack {
-            Color.hex("2E2017")
+            Color.hex("2A2345")
                 .edgesIgnoringSafeArea(.all)
                 .opacity(0.76)
             
@@ -60,7 +60,7 @@ struct QuestionViewCasuzquiz: View {
                 Image("namefield.label")
                     .overlay {
                         TextField("Your Name...", text: $vm.player2)
-                            .withFont(size: 18, weight: .semibold, color: .black)
+                            .withFont(size: 18, weight: .semibold)
                             .padding(.horizontal)
                             .onChange(of: vm.player2) { newValue in
                                 if newValue.count > 15 {
@@ -97,7 +97,7 @@ struct QuestionViewCasuzquiz: View {
                  .frame(minHeight: 150)
                  .overlay {
                      Text(vm.currentQuestion.question)
-                         .withFont(size: isSE ? 20: 22, weight: .semibold)
+                         .withFont(size: isSE ? 20: 22, weight: .semibold, color: .black)
                          .fixedSize(horizontal: false, vertical: true)
                          .padding(.horizontal, 40)
                          .padding(.vertical)
@@ -208,7 +208,7 @@ struct QuestionViewCasuzquiz: View {
     
     private var onePlayerWinView: some View {
         ZStack {
-            Color.hex("2E2017")
+            Color.hex("2A2345")
                 .edgesIgnoringSafeArea(.all)
                 .opacity(0.9)
             
@@ -247,7 +247,7 @@ struct QuestionViewCasuzquiz: View {
     
     private var multWinView: some View {
         ZStack {
-            Color.hex("2E2017")
+            Color.hex("2A2345")
                 .edgesIgnoringSafeArea(.all)
                 .opacity(0.9)
             

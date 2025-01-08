@@ -13,6 +13,7 @@ struct Crown_QuizApp: App {
     var body: some Scene {
         WindowGroup {
             ContentViewCasuzquiz()
+                .preferredColorScheme(.dark)
         }
     }
 }

@@ -106,7 +106,7 @@ struct ContentViewCasuzquiz: View {
             .padding(.vertical)
             .padding(.bottom, 50)
             .background {
-                Color.hex("131828")
+                Color.hex("4A1986")
                 .edgesIgnoringSafeArea(.all)
             }
             .cornerRadius(41)

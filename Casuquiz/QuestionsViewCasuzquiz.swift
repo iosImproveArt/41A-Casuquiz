@@ -44,9 +44,12 @@ struct QuestionsViewCasuzquiz: View {
                         .overlay {
                             HStack {
                                 Image("tab4.lamp")
+                                    .scaleEffect(0.8)
+                                    .padding(.leading)
                                 Spacer()
                                 Text(showHint1 ? selectedQuestion.hint1: "Show first hint")
-                                    .withFont(size: 18, weight: .regular, color: showHint1 ? .white: .white)
+                                    .withFont(size: 18, weight: .regular, color: showHint1 ? .black: .white)
+                                    .padding(.trailing)
                                 Spacer()
                                 Spacer()
                                 Spacer()
@@ -62,10 +65,12 @@ struct QuestionsViewCasuzquiz: View {
                         .overlay {
                             HStack {
                                 Image("tab4.lamp")
+                                    .scaleEffect(0.8)
+                                    .padding(.leading)
                                 Spacer()
                                 Text(showHint2 ? selectedQuestion.hint2: "Show first hint")
-                                    .withFont(size: 18, weight: .regular, color: showHint1 ? .white: .white)
-                                   
+                                    .withFont(size: 18, weight: .regular, color: showHint2 ? .black: .white)
+                                    .padding(.trailing)
                                 Spacer()
                                 Spacer()
                                 Spacer()

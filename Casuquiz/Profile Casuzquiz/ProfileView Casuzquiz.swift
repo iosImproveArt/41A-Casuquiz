@@ -59,6 +59,7 @@ struct ProfileViewCasuzquiz: View {
                             .padding(.horizontal, 15)
                             .padding(.horizontal, 6)
                     }
+                    .foregroundColor(.white)
             }.padding(.vertical)
             
             
@@ -71,6 +72,7 @@ struct ProfileViewCasuzquiz: View {
                             .padding(.horizontal, 15)
                             .padding(.horizontal, 6)
                     }
+                    .foregroundColor(.white)
             }.padding(.bottom)
             
             
