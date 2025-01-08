@@ -99,8 +99,8 @@ struct PrivacyViewCasuzquiz: View {
             }
         }
         .navigationBarBackButtonHidden()
-            .navigationTitle("")
-                    .navigationBarHidden(true)
+        .navigationTitle("")
+        .navigationBarHidden(true)
     }
 }
 
