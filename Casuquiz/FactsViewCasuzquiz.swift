@@ -126,152 +126,127 @@ struct FactsViewCasuzquiz: View {
 struct FactCasuzquiz {
     let title: String // (не більше 5 слів)
     let content: String // (великий опис факту)
+    
+    var wtgv = 14143514514
+    var wtgwvtgv = "wtgvwtgv"
+    func wtgcetghvbtwvwtg() -> Float { return 14514.1454 }
+    func wrfcete() { print("wrcfrfccr") }
+    private struct wrfccwrRFC {}
 }
 
 fileprivate let facts: [FactCasuzquiz] = [
-    FactCasuzquiz(title: "The Eternal Storm", content: "The Catatumbo Lightning is a unique atmospheric phenomenon occurring over the Catatumbo River in Venezuela. Known as the 'Eternal Storm,' it produces lightning strikes almost 300 days a year. This natural light show occurs due to the region's unique geography: warm, humid air from Lake Maracaibo rises and collides with cold winds from the Andes, creating massive electrical discharges. The phenomenon generates more ozone than any other lightning storm on Earth, contributing to the planet's ozone layer."),
-    
-    FactCasuzquiz(title: "The Boiling River", content: "In the heart of the Amazon rainforest, there is a mysterious river known as the Shanay-Timpishka, or 'The Boiling River.' Its waters reach temperatures of up to 93°C (200°F), hot enough to scald and even kill animals that fall in. Scientists believe the heat originates from geothermal energy, where water from underground reservoirs is superheated and then surfaces through faults in the Earth's crust. Local legends suggest the river has sacred properties, blending indigenous spirituality with unique natural phenomena."),
-    
-    FactCasuzquiz(title: "The Underwater Waterfall", content: "Off the coast of Mauritius, there is an optical illusion that looks like an underwater waterfall. This phenomenon is caused by the movement of sand and silt along the ocean floor, creating a visual effect as though water is tumbling into an abyss. The illusion is best seen from above and is the result of ocean currents flowing around the island’s unique underwater topography. This striking sight demonstrates how natural forces can create awe-inspiring illusions."),
-    
-    FactCasuzquiz(title: "The Singing Sand Dunes", content: "In several deserts around the world, such as the Sahara and the Gobi, sand dunes produce a low-pitched humming sound, often described as 'singing.' This sound is caused by grains of sand rubbing against each other when the sand shifts, either from wind or human activity. Scientists found that the size and shape of the grains, as well as the moisture content, determine the frequency and intensity of the sound. These singing dunes provide a glimpse into the complex physics of granular materials."),
-    
-    FactCasuzquiz(title: "Antarctica's Blood Falls", content: "In Antarctica, a glacier called Taylor Glacier is home to a shocking red-colored waterfall known as Blood Falls. This phenomenon is caused by iron-rich water emerging from a subglacial lake and oxidizing upon contact with the air, creating a striking rust-like appearance. The water also contains microbes that have adapted to thrive in extreme conditions without sunlight or oxygen, providing clues about the possibility of life on other planets."),
-    
-    FactCasuzquiz(title: "The Glow-in-the-Dark Waves", content: "Bioluminescent waves, caused by microorganisms called dinoflagellates, create glowing blue coastlines in places like the Maldives and Puerto Rico. These tiny creatures emit light when disturbed, creating a magical glowing effect when waves break or footprints are left in the wet sand. The phenomenon occurs in nutrient-rich waters, often triggered by changes in water temperature or chemical composition, and highlights the beauty and complexity of marine ecosystems."),
-    
-    FactCasuzquiz(title: "The Loneliest Tree", content: "In the middle of the Sahara Desert, there was once a tree known as the Tree of Ténéré, famed as the world's loneliest tree. This acacia stood as the only tree for 400 kilometers around, surviving in one of the harshest climates on Earth. It was a critical landmark for travelers until it was tragically knocked over by a truck in 1973. The tree's story remains a testament to resilience in extreme environments."),
-    
-    FactCasuzquiz(title: "The Ice Flowers of the Arctic", content: "On the Arctic Ocean's surface during extremely cold conditions, 'ice flowers' can form. These delicate frost structures grow from imperfections on thin ice when the water vapor in the air freezes instantly. They are rich in salt and bacteria, creating unique microhabitats in one of the harshest environments on Earth. Ice flowers provide a glimpse into how life can adapt to extreme cold, inspiring research into extraterrestrial life."),
-    
-    FactCasuzquiz(title: "The River that Runs Backwards", content: "The Chicago River in Illinois is famous for being one of the few rivers in the world to have its flow intentionally reversed. This engineering feat was achieved in the early 20th century to prevent pollution from Lake Michigan, the city’s primary water source. The reversal was accomplished by constructing a series of canals and locks, demonstrating humanity's ability to alter natural systems for urban needs."),
-    
-    FactCasuzquiz(title: "The Living Rocks", content: "Pyura chilensis, also known as 'living rocks,' are marine creatures found along the coast of Chile and Peru. At first glance, they look like ordinary stones, but upon closer inspection, they are filter-feeding organisms with blood rich in vanadium, a rare element. These unique creatures challenge the distinction between inanimate and living beings, providing a fascinating example of life’s adaptability."),
-    
-    FactCasuzquiz(title: "Lake That Never Freezes", content: "Lake Baikal in Siberia, the world's deepest freshwater lake, is known for its unique properties. Despite freezing over in winter, its waters remain exceptionally clear, allowing light to penetrate up to 40 meters under the ice. This phenomenon occurs because of low levels of organic matter and the unique ecosystem supported by endemic species."),
-    
-    FactCasuzquiz(title: "The Desert That Blooms", content: "In Chile's Atacama Desert, one of the driest places on Earth, a rare phenomenon known as 'desert bloom' occurs after heavy rainfall. Dormant seeds germinate, covering the arid landscape with vibrant wildflowers. This event highlights the resilience of life even in the harshest conditions."),
-    
-    FactCasuzquiz(title: "The Endless Wave", content: "In Brazil's Amazon River, a phenomenon called 'Pororoca' occurs when the tide from the Atlantic Ocean pushes upriver, creating waves that can travel for kilometers. Surfers from around the world attempt to ride this unique natural wave, which can last for over half an hour."),
-    
-    FactCasuzquiz(title: "The Pink Lake", content: "Lake Hillier in Australia is famous for its bright pink color, caused by the presence of microalgae that produce a red pigment. Despite its unusual color, the lake is safe for swimming, making it a popular tourist attraction and a marvel of microbial ecosystems."),
-    
-    FactCasuzquiz(title: "The Stone Forest", content: "The Shilin Stone Forest in China is a vast area of towering limestone formations, some over 270 million years old. These structures were created by the erosion of limestone and other minerals, leaving behind a surreal landscape that looks like a petrified forest."),
-    
-    FactCasuzquiz(title: "The World's Loudest Animal", content: "The sperm whale holds the title for the loudest animal on Earth. Its clicks, used for echolocation, can reach up to 230 decibels, louder than a jet engine. These sounds help the whale navigate the deep ocean and communicate with others over long distances."),
-    
-    FactCasuzquiz(title: "The Lake That Kills", content: "Lake Nyos in Cameroon is one of the world's only known exploding lakes. Its depths contain high concentrations of carbon dioxide, which can be released in deadly bursts, suffocating nearby wildlife and humans. Efforts have been made to mitigate this risk by releasing gas in controlled amounts."),
-    
-    FactCasuzquiz(title: "The Frozen Bubbles", content: "In Canada’s Lake Abraham, methane gas bubbles become trapped under the ice, creating stunning frozen patterns. These bubbles form when organic matter decomposes at the lake's bottom and freeze as they rise. The phenomenon offers both a visual spectacle and a reminder of the role of methane in climate change."),
-    
-    FactCasuzquiz(title: "The Upside-Down River", content: "In Mexico’s Cenote Angelita, a unique underwater river forms due to a layer of hydrogen sulfide separating saltwater and freshwater. This phenomenon creates the illusion of a river flowing underwater, offering divers an otherworldly experience."),
-    
-    FactCasuzquiz(title: "The Singing Ice", content: "In extremely cold conditions, frozen lakes emit eerie, high-pitched sounds as the ice expands and contracts. This 'singing ice' phenomenon occurs when temperature changes cause the ice to crack, sending vibrations through the surface, creating sounds like laser beams."),
-    
-    FactCasuzquiz(title: "The Burning Mountain", content: "Mount Wingen in Australia, also known as Burning Mountain, is home to an underground coal seam fire that has been burning for over 6,000 years. This is one of the longest-burning natural fires, fueled by oxygen seeping into coal deposits through cracks."),
-    
-    FactCasuzquiz(title: "The Moving Island", content: "In Loktak Lake, India, floating islands called phumdis form naturally from vegetation and organic matter. These islands support unique ecosystems and are even home to a national park, showcasing nature's ingenuity."),
-    
-    FactCasuzquiz(title: "The Ice Canyon", content: "In Greenland, the Russell Glacier is home to deep, winding ice canyons created by meltwater streams. These canyons showcase the dynamic nature of glaciers and are some of the most visually stunning formations on Earth."),
-    
-    FactCasuzquiz(title: "The Lava Lake", content: "Mount Nyiragongo in the Democratic Republic of Congo has one of the world's largest lava lakes. Its constantly bubbling lava is a rare geological feature, offering a glimpse into the planet’s fiery interior."),
-    
-    FactCasuzquiz(title: "The Glowworm Caves", content: "New Zealand's Waitomo Caves are famous for their glowworms, which create a starry effect on the cave ceiling. These bioluminescent creatures use their light to attract prey, making the caves a popular tourist destination."),
-    
-    FactCasuzquiz(title: "The Two-Toned Beach", content: "Pfeiffer Beach in California features purple sand, created by manganese-rich minerals eroded from nearby rocks. This unique coloration makes it one of the most distinctive beaches in the world."),
-    
-    FactCasuzquiz(title: "The Blood Rain", content: "In parts of Kerala, India, a phenomenon called 'blood rain' occurs during monsoon season. This red-colored rain is caused by airborne spores from algae and has fascinated scientists for decades."),
-    
-    FactCasuzquiz(title: "The Living Bridges", content: "In Meghalaya, India, locals create 'living bridges' by training the roots of rubber trees to grow across rivers. These natural structures are incredibly strong and can last for centuries, showcasing the harmony between humans and nature."),
-    
-    FactCasuzquiz(title: "The Crystal Cave", content: "Mexico’s Naica Mine contains massive selenite crystals, some over 12 meters long. The cave’s high temperatures and humidity helped these crystals grow to such enormous sizes over hundreds of thousands of years."),
-    
-    FactCasuzquiz(title: "The Vanishing River", content: "The Rio Celeste in Costa Rica is known for its vibrant blue color, caused by a chemical reaction between volcanic minerals. However, during heavy rain, the river loses its iconic hue, only to regain it when conditions stabilize."),
-    
-    FactCasuzquiz(title: "The Loneliest Island", content: "Bouvet Island, located in the South Atlantic Ocean, is the most isolated island on Earth. Its icy terrain and harsh weather make it nearly uninhabitable, but it is a sanctuary for seals and seabirds."),
-    
-    FactCasuzquiz(title: "The Snow Donuts", content: "In rare conditions, snow rollers or 'snow donuts' can form when wind pushes snow into a rolling shape. These hollow cylinders are fragile and typically occur in open fields during strong winds."),
-    
-    FactCasuzquiz(title: "The Milky Seas", content: "A rare phenomenon called 'milky seas' occurs when bioluminescent bacteria illuminate large areas of the ocean, creating a glowing effect visible from space. This natural wonder is still poorly understood."),
-    
-    FactCasuzquiz(title: "The Black Sun", content: "In Denmark, during spring and autumn, flocks of starlings perform synchronized aerial displays known as 'black sun.' These murmurations create mesmerizing patterns and serve as a defense mechanism against predators."),
-    
-    FactCasuzquiz(title: "The Forest That Breathes", content: "In Canada’s Quebec forest, the ground appears to 'breathe' as tree roots move with wind pressure. This eerie phenomenon highlights the interconnectedness of trees and the forest floor."),
-    
-    FactCasuzquiz(title: "The Green Flash", content: "At sunrise or sunset, a rare green flash can appear on the horizon. This optical phenomenon occurs due to atmospheric refraction and is best seen in clear conditions over the ocean."),
-    
-    FactCasuzquiz(title: "The Rainbow Mountains", content: "China’s Zhangye Danxia Landform features rainbow-colored mountains, formed by layers of sedimentary rock and minerals over millions of years. The vibrant colors are a result of erosion and oxidation."),
-    
-    FactCasuzquiz(title: "The Hidden Beach", content: "Mexico’s Marieta Islands are home to a hidden beach accessible only through a water tunnel. This secluded spot was formed by volcanic activity and human intervention, creating a natural wonder."),
-    
-    FactCasuzquiz(title: "The Magnetic Hill", content: "In India’s Ladakh region, Magnetic Hill creates an optical illusion where vehicles appear to roll uphill. This phenomenon is due to the surrounding landscape tricking the brain into perceiving the slope incorrectly."),
-    
-    FactCasuzquiz(title: "The Flowering Coral", content: "Once a year, coral reefs around the world participate in a synchronized spawning event, releasing eggs and sperm into the water. This natural spectacle is timed with the moon cycles and is vital for reef regeneration."),
-    
-    FactCasuzquiz(title: "The Waterfall That Flows Up", content: "In Venezuela, there's a natural phenomenon called the Catatumbo Lightning that can appear to cause a waterfall to flow uphill. This illusion is created by the interaction of wind currents, electrical discharges, and the river’s natural topography, making it seem like the water defies gravity."),
-    
-    FactCasuzquiz(title: "The Giant's Causeway", content: "Northern Ireland is home to the Giant's Causeway, a unique formation of about 40,000 interlocking basalt columns, formed by volcanic activity over 60 million years ago. The site has both geological and mythical significance, as local legends suggest the columns were built by a giant."),
-    
-    FactCasuzquiz(title: "The Cloud Forest", content: "Costa Rica's Monteverde Cloud Forest is home to a rare ecosystem that exists in the mist of high-altitude mountains. The constant cloud cover nurtures a rich biodiversity of plants, animals, and birds that thrive in the moisture-laden environment."),
-    
-    FactCasuzquiz(title: "The Largest Desert", content: "Though most people think of deserts as sandy, dry places, the Antarctic Desert is actually the largest desert on Earth. It covers an area of about 14 million square kilometers, making it the coldest and driest place on the planet."),
-    
-    FactCasuzquiz(title: "The Moonlit Flowers", content: "Certain species of flowers, such as the Night-Blooming Cereus, only open their petals at night, when the moonlight is at its brightest. This behavior is thought to attract nocturnal pollinators like bats and moths, contributing to their reproductive cycle."),
-    
-    FactCasuzquiz(title: "The Black Sand Beaches", content: "The volcanic activity on Hawaii’s Big Island creates stunning black sand beaches. These beaches are formed when lava from eruptions meets the ocean and rapidly cools, breaking into small pieces of black volcanic glass."),
-    
-    FactCasuzquiz(title: "The Largest Living Structure", content: "The Great Barrier Reef in Australia is the world’s largest living structure, stretching over 2,300 kilometers. It’s home to a diverse range of marine life and contributes significantly to global biodiversity and environmental health."),
-    
-    FactCasuzquiz(title: "The Mysterious Moving Stones", content: "At Racetrack Playa in Death Valley, California, large rocks mysteriously move across the desert floor, leaving long trails behind them. Scientists have discovered that the rocks are pushed by a rare combination of ice and wind, resulting in this natural mystery."),
-    
-    FactCasuzquiz(title: "The Eyeless Fish", content: "In the caves of the Mexican Yucatán Peninsula, scientists have discovered a species of fish called the blind cavefish. These creatures have evolved without eyes, relying instead on other senses, such as detecting vibrations and changes in water pressure."),
-    
-    FactCasuzquiz(title: "The Sea of Stars", content: "The Maldives and other parts of the Indian Ocean are home to bioluminescent plankton that create an effect called the 'Sea of Stars.' These microorganisms emit a blue glow when disturbed, turning the ocean into a glowing spectacle, especially at night."),
-    
-    FactCasuzquiz(title: "The Volcano That Erupts Ice", content: "In Iceland, an ice volcano known as 'Geysir' periodically erupts with plumes of boiling water and steam. Its eruptions occur due to the high geothermal activity beneath the surface, creating both geothermal power and a spectacular show for tourists."),
-    
-    FactCasuzquiz(title: "The Underground River", content: "In Puerto Rico’s Rio Camuy Cave Park, one of the largest underground rivers in the world flows beneath the surface. The river has carved deep caves and tunnels, creating a unique subterranean ecosystem."),
-    
-    FactCasuzquiz(title: "The Tree That Grows on Rocks", content: "In the remote cliffs of the Mediterranean, a species of tree known as the 'rock pine' manages to grow in the most improbable places, thriving on rocky outcrops with little soil. Its roots adapt to the harsh conditions, defying conventional wisdom about plant growth."),
-    
-    FactCasuzquiz(title: "The Firefall", content: "In Yosemite National Park, the 'Firefall' phenomenon occurs every February when the setting sun illuminates a waterfall of molten lava. Though it appears as though lava is falling from the cliff, the optical effect is caused by the reflection of sunlight on a waterfall."),
-    
-    FactCasuzquiz(title: "The Ice Bubbles", content: "In Alberta, Canada, frozen methane bubbles create a surreal scene in Abraham Lake. These bubbles are trapped in the ice during the winter, providing an incredible and hauntingly beautiful landscape."),
-    
-    FactCasuzquiz(title: "The Unexplained Sound", content: "In the Pacific Ocean, sailors sometimes hear an eerie noise called the 'Bloop,' a high-pitched sound whose origin has baffled scientists. Though it was once believed to be the sound of an unknown sea creature, later studies suggested it was caused by the rapid movement of icebergs."),
-    
-    FactCasuzquiz(title: "The Snowdon Lily", content: "High up in Snowdonia, Wales, grows a rare plant known as the Snowdon Lily. This hardy species thrives in harsh alpine conditions and has become an emblem of resilience in one of the UK’s most rugged landscapes."),
-    
-    FactCasuzquiz(title: "The Golden Toad", content: "The Golden Toad, once endemic to a small area in Costa Rica, has not been seen since the 1980s. It is believed that the toad’s extinction was due to the climate change and fungal diseases, which have had devastating effects on amphibian populations."),
-    
-    FactCasuzquiz(title: "The Subterranean River", content: "In the Philippines, the Puerto Princesa Underground River is one of the longest navigable underground rivers in the world. This natural wonder winds through caves and emerges into the open ocean, offering a breathtaking experience for visitors."),
-    
-    FactCasuzquiz(title: "The Black Diamond", content: "In the Himalayan region, rare black diamonds, known as carbonado, are found in volcanic deposits. These diamonds are more porous and are believed to have extraterrestrial origins, making them one of the rarest and most valuable forms of carbon."),
-    
-    FactCasuzquiz(title: "The Sea of Ice", content: "The Arctic is home to one of the world’s most fascinating natural phenomena—’The Sea of Ice.’ This region is covered with floating ice sheets that constantly shift and break apart, creating an ever-changing landscape of icebergs and frozen water."),
-    
-    FactCasuzquiz(title: "The Giant Jellyfish", content: "The lion’s mane jellyfish, with tentacles that can span up to 30 meters, holds the title for the longest animal in the world. Despite their size, these jellyfish are typically found in colder, northern oceans and can be both awe-inspiring and dangerous."),
-    
-    FactCasuzquiz(title: "The Invisible Volcano", content: "In Hawaii, there is a volcano called Kīlauea, which is so active that it often erupts below the surface, making it difficult to see. Instead of a traditional eruption, the lava leaks into the ocean, creating vast amounts of steam and transforming the coastline."),
-    
-    FactCasuzquiz(title: "The Moon's Dust Storms", content: "While the Moon is thought to be mostly inert, lunar dust storms have been discovered that occasionally occur during specific meteorological events. These storms can drastically reduce visibility on the lunar surface and affect equipment left behind by astronauts."),
-    
-    FactCasuzquiz(title: "The Rolling Stone", content: "In Death Valley, California, large stones called 'Sailing Stones' can be seen moving across the desert floor. The movement is caused by a rare combination of ice, wind, and other environmental factors that make it appear as though the stones are rolling on their own."),
-    
-    FactCasuzquiz(title: "The Magnetic Hill", content: "Magnetic Hill in Ladakh, India, creates an optical illusion that makes vehicles appear to roll uphill, defying gravity. This phenomenon is caused by the surrounding terrain, which creates a visual effect that tricks the eye."),
-    
-    FactCasuzquiz(title: "The Singing Sand Dunes", content: "In parts of China and Mongolia, sand dunes are known to produce musical sounds, sometimes described as 'singing.' This occurs when the sand grains rub together under certain conditions of moisture, temperature, and wind."),
-    
-    FactCasuzquiz(title: "The Pillars of Creation", content: "Located in the Eagle Nebula, the Pillars of Creation are towering gas and dust formations that are believed to be the birthplace of new stars. These magnificent structures are millions of years old and were made famous by the Hubble Space Telescope."),
-    
-    FactCasuzquiz(title: "The Golden Eagle", content: "The Golden Eagle is one of the largest and most powerful birds of prey in the world. Native to the Northern Hemisphere, it is renowned for its hunting skills and has been a symbol of power and freedom in various cultures."),
-    
-    FactCasuzquiz(title: "The Bioluminescent Bay", content: "In Vieques, Puerto Rico, there’s a bay where the water glows due to the presence of bioluminescent plankton. This phenomenon occurs when the plankton are disturbed, releasing a bright blue glow in response."),
-    
-    FactCasuzquiz(title: "The Fountains of Vaucluse", content: "The Fountains of Vaucluse, located in France, is one of the largest springs in the world. The spring gushes out from the ground at a rate of over 630 cubic meters per second, forming a spectacular natural fountain."),
-    
-    FactCasuzquiz(title: "The Pyramids of Meroë", content: "The ancient Meroë pyramids in Sudan are part of a mysterious and little-known ancient Nubian civilization. These pyramids were built for royal burial and stand in stark contrast to their more famous Egyptian counterparts."),
-    
-    FactCasuzquiz(title: "The Glass Beach", content: "Located in California, Glass Beach was once a site for discarded glass and trash. Over time, ocean waves polished the glass, turning it into smooth, colorful pebbles that now cover the beach and create a dazzling visual effect."),
+    FactCasuzquiz(title: "The Singing Sand Dunes", content: "In certain deserts, such as the Namib and the Gobi, sand dunes can produce a unique humming or singing sound. This phenomenon occurs when the sand grains slide against each other, causing vibrations that resonate through the dune. The pitch and volume of the sound depend on the size and shape of the grains as well as the dune's size."),
+        
+        FactCasuzquiz(title: "The Upside-Down Waterfall", content: "The Kinder Downfall in the Peak District of England is a waterfall that often flows upward during strong winds. As the water is pushed by the wind, it creates a spectacular illusion of an upside-down waterfall, attracting numerous visitors."),
+        
+        FactCasuzquiz(title: "The Boiling River", content: "Deep in the Amazon rainforest of Peru lies the Shanay-Timpishka, a river that can reach boiling temperatures of up to 93°C (200°F). Its heat is thought to come from geothermal activity underground. The river is sacred to the indigenous people and is an incredibly rare natural phenomenon."),
+        
+        FactCasuzquiz(title: "The Bioluminescent Bays", content: "In places like Vieques, Puerto Rico, certain bays glow at night due to bioluminescent microorganisms called dinoflagellates. These tiny creatures emit light when disturbed, creating a magical spectacle as the water shimmers with every movement."),
+        
+        FactCasuzquiz(title: "The Giant’s Causeway", content: "The Giant's Causeway in Northern Ireland is a natural wonder formed by volcanic activity around 60 million years ago. It features thousands of interlocking basalt columns, most of which are hexagonal in shape. Legend has it that the structure was built by a giant named Finn McCool."),
+        
+        FactCasuzquiz(title: "The Great Blue Hole", content: "Located off the coast of Belize, the Great Blue Hole is a massive underwater sinkhole. Its nearly perfect circular shape and deep blue color make it a popular diving spot. Scientists believe it formed during the last Ice Age, when the sea level was much lower."),
+        
+        FactCasuzquiz(title: "The Crooked Forest", content: "The Crooked Forest in Poland features around 400 oddly-shaped pine trees with curved trunks. The cause of their unusual shape is still debated, with theories ranging from human intervention to natural phenomena."),
+        
+        FactCasuzquiz(title: "The Lake of Exploding Ice", content: "Lake Abraham in Alberta, Canada, is known for its frozen bubbles. These are caused by methane gas trapped under the ice, which forms beautiful, layered patterns. When the ice melts in spring, the gas can escape, sometimes igniting if lit."),
+        
+        FactCasuzquiz(title: "The Rainbow Eucalyptus", content: "The Rainbow Eucalyptus tree is native to the Philippines and is known for its multicolored bark. As the bark peels away in strips, it reveals bright green layers that age into shades of blue, purple, orange, and maroon."),
+        
+        FactCasuzquiz(title: "The Door to Hell", content: "The Darvaza gas crater in Turkmenistan, known as the 'Door to Hell,' has been burning continuously since 1971. This fiery pit was created when a natural gas field collapsed, and geologists set it on fire to prevent the spread of gas."),
+    FactCasuzquiz(title: "The Blood Falls", content: "In Antarctica, the Taylor Glacier is home to 'Blood Falls,' a stream of red water that seeps out of the ice. The color comes from iron-rich water that oxidizes when exposed to air, creating the eerie blood-like appearance."),
+        
+        FactCasuzquiz(title: "The Sailing Stones", content: "In Death Valley, California, rocks mysteriously move across the desert floor, leaving long trails behind them. This phenomenon is caused by thin layers of ice and strong winds, which allow the rocks to slide on the surface."),
+        
+        FactCasuzquiz(title: "The Glowworm Caves", content: "The Waitomo Caves in New Zealand are illuminated by thousands of glowworms that emit a magical blue light. These glowworms are actually the larvae of a type of fungus gnat and use their light to attract prey."),
+        
+        FactCasuzquiz(title: "The Underwater Forest", content: "Lake Kaindy in Kazakhstan hides a submerged forest beneath its surface. The trees, preserved by the cold water, appear like ghostly spires rising from the depths."),
+        
+        FactCasuzquiz(title: "The Ice Caves of Iceland", content: "Iceland is famous for its stunning ice caves, formed by melting glacial water. The caves are known for their vibrant blue hues and ever-changing shapes, making each visit unique."),
+        
+        FactCasuzquiz(title: "The Desert Bloom", content: "In Chile's Atacama Desert, one of the driest places on Earth, rare rain events cause the desert to burst into a colorful bloom of wildflowers. This phenomenon, known as 'Desierto Florido,' happens every few years."),
+        
+        FactCasuzquiz(title: "The Fairy Circles", content: "In the Namib Desert, mysterious circular patches of barren land, called fairy circles, dot the landscape. Scientists believe they are caused by a combination of termite activity and water competition among plants."),
+        
+        FactCasuzquiz(title: "The Everlasting Fire", content: "In Turkey, the 'Chimaera' is a natural eternal flame fueled by methane gas seeping through cracks in the Earth's surface. It has been burning for thousands of years and is referenced in ancient mythology."),
+        
+        FactCasuzquiz(title: "The Pink Lake", content: "Lake Hillier in Australia is famous for its vibrant pink color. The unique hue is caused by the presence of specific algae and bacteria. Interestingly, the water retains its pink color even when bottled."),
+        
+        FactCasuzquiz(title: "The Blue Volcano", content: "Indonesia's Kawah Ijen volcano emits stunning blue flames at night. This phenomenon is caused by the combustion of sulfuric gases that emerge from the volcano’s vents and ignite in the air."),
+        
+        FactCasuzquiz(title: "The Frost Flowers", content: "In extremely cold conditions, 'frost flowers' form on the surface of sea ice or thin lake ice. These delicate, ice-crystal formations are created when water vapor rises and instantly freezes upon contact with cold air."),
+        
+        FactCasuzquiz(title: "The Living Bridges", content: "In the Indian state of Meghalaya, locals grow 'living bridges' using the roots of rubber trees. These natural structures can last for hundreds of years and become stronger over time."),
+        
+        FactCasuzquiz(title: "The Iceberg Alley", content: "Off the coast of Newfoundland, Canada, Iceberg Alley is a stretch of ocean where massive icebergs drift south from Greenland. These towering ice formations are a breathtaking sight."),
+        
+        FactCasuzquiz(title: "The Moeraki Boulders", content: "The Moeraki Boulders in New Zealand are large, spherical stones scattered along the beach. These fascinating formations are the result of natural erosion over millions of years."),
+        
+        FactCasuzquiz(title: "The Chocolate Hills", content: "The Chocolate Hills of the Philippines are more than 1,200 perfectly cone-shaped hills. During the dry season, the grass covering them turns brown, giving them their chocolate-like appearance."),
+        
+        FactCasuzquiz(title: "The Salt Cathedral", content: "In Zipaquirá, Colombia, a salt mine has been transformed into an underground cathedral. This remarkable structure is carved entirely out of salt rock and attracts thousands of visitors each year."),
+        
+        FactCasuzquiz(title: "The Great Red Spot", content: "On Jupiter, the Great Red Spot is a massive storm that has been raging for at least 350 years. It is so large that it could fit multiple Earths inside it."),
+        
+        FactCasuzquiz(title: "The Eye of the Sahara", content: "The Richat Structure, or 'Eye of the Sahara,' is a massive geological formation in Mauritania. Its concentric rings, visible from space, were once thought to be a meteorite impact but are now believed to be the result of natural erosion."),
+        
+        FactCasuzquiz(title: "The Fire Rainbow", content: "Fire rainbows, or circumhorizontal arcs, are rare optical phenomena caused by sunlight passing through ice crystals in cirrus clouds. They appear as vibrant, rainbow-like streaks in the sky."),
+        
+        FactCasuzquiz(title: "The Devil’s Kettle", content: "At Minnesota’s Judge C.R. Magney State Park, the Brule River splits into two streams. One flows downstream, while the other vanishes into a hole known as the Devil’s Kettle. Scientists are still puzzled by where the water goes."),
+    
+    FactCasuzquiz(title: "The Immortal Jellyfish", content: "The Turritopsis dohrnii, often called the 'immortal jellyfish,' has the unique ability to revert its cells to an earlier stage of development when threatened, potentially avoiding death and restarting its life cycle indefinitely."),
+        
+        FactCasuzquiz(title: "A Spoonful of Neutron Star", content: "If you could take a spoonful of material from a neutron star, it would weigh about 6 billion tons on Earth due to the extreme density of the star's matter."),
+        
+        FactCasuzquiz(title: "The Human Brain’s Power", content: "The human brain generates about 23 watts of power while awake—enough to power a small lightbulb. Despite this, it consumes only about 20% of the body's energy."),
+
+        FactCasuzquiz(title: "The First Computer Bug", content: "The term 'computer bug' originated in 1947 when a real moth was found stuck in a Harvard Mark II computer, causing a malfunction."),
+        
+        FactCasuzquiz(title: "The Internet’s Weight", content: "If you could weigh the entire internet, it would be about the same weight as a large strawberry. This is based on the energy and electrons used in transferring data."),
+        
+        FactCasuzquiz(title: "AI vs. Human Brain", content: "The most advanced supercomputers today are still far less efficient than the human brain, which can perform about 1 exaflop of computations while consuming only 20 watts of power."),
+
+        FactCasuzquiz(title: "Napoleon’s Short Height Myth", content: "Napoleon Bonaparte wasn’t actually short. The myth comes from a confusion between French and British measurements. He was around 5'7\" tall, average for his time."),
+        
+        FactCasuzquiz(title: "The Longest War", content: "The longest war in history lasted 335 years and was fought between the Netherlands and the Isles of Scilly. Interestingly, there were no casualties."),
+        
+        FactCasuzquiz(title: "Cleopatra and Time", content: "Cleopatra lived closer in time to the invention of the iPhone than to the construction of the Great Pyramid of Giza."),
+
+        FactCasuzquiz(title: "The Dark Side of the Moon", content: "The 'dark side of the moon' is a misnomer. Both sides receive sunlight; the term simply refers to the side we never see from Earth."),
+        
+        FactCasuzquiz(title: "One Day on Venus", content: "A day on Venus (243 Earth days) is longer than its year (225 Earth days), making its rotation incredibly slow."),
+        
+        FactCasuzquiz(title: "The Largest Volcano", content: "The largest volcano in the solar system is Olympus Mons on Mars. It’s about 3 times the height of Mount Everest and spans the size of Arizona."),
+
+        FactCasuzquiz(title: "Octopus Hearts", content: "An octopus has three hearts. Two pump blood to the gills, and one pumps it to the rest of the body. When swimming, the heart pumping to the body stops."),
+        
+        FactCasuzquiz(title: "Bananas Are Berries", content: "Botanically, bananas are classified as berries, while strawberries are not."),
+        
+        FactCasuzquiz(title: "Sharks and Trees", content: "Sharks have existed on Earth longer than trees. Sharks appeared about 400 million years ago, while the first trees appeared about 350 million years ago."),
+
+        FactCasuzquiz(title: "The Eiffel Tower Changes Height", content: "The Eiffel Tower can grow taller by about 6 inches during the summer due to the expansion of the metal in heat."),
+        
+        FactCasuzquiz(title: "The First Movie", content: "The world’s first motion picture, 'Roundhay Garden Scene,' was filmed in 1888 and lasts just 2.11 seconds."),
+        
+        FactCasuzquiz(title: "The Mona Lisa’s Eyebrows", content: "Leonardo da Vinci’s Mona Lisa has no eyebrows because it was common at the time to paint eyebrows so finely that they would often fade away over time."),
+
+        FactCasuzquiz(title: "The Infinity Symbol", content: "The infinity symbol (∞) was introduced in 1655 by mathematician John Wallis to represent a concept that has no end."),
+        
+        FactCasuzquiz(title: "0 as a Number", content: "The concept of zero as a number was first used by ancient Indian mathematicians, with the earliest recorded use dating back to the 5th century."),
+        
+        FactCasuzquiz(title: "Pi Is Infinite", content: "The number pi (π) has been calculated to trillions of digits and shows no repeating pattern, making it an infinite, irrational number."),
+    
+    FactCasuzquiz(title: "The World's Quietest Room", content: "The quietest place on Earth is an anechoic chamber located at Orfield Laboratories in Minnesota. This room is designed to absorb 99.99% of sound waves, creating an environment so silent that visitors often hear sounds they normally wouldn’t notice, such as their heartbeat, the blood circulating in their veins, or even the creaking of their own bones. Spending extended time in this room can be disorienting, and most people can only endure it for a few minutes."),
+        FactCasuzquiz(title: "Honey Never Spoils", content: "Honey is one of the few natural foods that doesn’t spoil, thanks to its unique chemical composition. With a low water content and high acidity, honey creates an environment where bacteria and microorganisms cannot thrive. Archaeologists have uncovered jars of honey in ancient Egyptian tombs that are over 3,000 years old and still perfectly edible, proving its incredible longevity."),
+        FactCasuzquiz(title: "The Speed of a Sneeze", content: "A sneeze is a powerful reflex that expels air and particles from your nose and mouth at speeds of up to 100 miles per hour. This reaction is the body’s way of clearing irritants from the nasal passages, and it can send up to 100,000 tiny droplets into the air. The sheer force and speed make sneezes surprisingly efficient at spreading germs."),
+        FactCasuzquiz(title: "The Longest Word", content: "The longest word in the English language is the chemical name for titin, a protein essential for muscle contraction. Its full name is 189,819 letters long and takes over three hours to pronounce. While this word is used primarily in scientific contexts, it demonstrates the incredible complexity of proteins and how they are named."),
+        FactCasuzquiz(title: "Space Smells Like Steak", content: "Astronauts returning from spacewalks have reported that space has a unique smell, often described as resembling seared steak, welding fumes, or burnt metal. This smell comes from the interaction between space particles and the materials on astronauts’ suits when exposed to the vacuum of space. Though it cannot be smelled directly in space, the scent is noticeable when they re-enter their spacecraft."),
+        FactCasuzquiz(title: "Sloths and Their Fur", content: "The fur of a sloth is a unique ecosystem that hosts a variety of organisms, including algae, fungi, and insects like moths. The greenish tint from the algae helps sloths camouflage themselves in the trees, protecting them from predators. The algae also provide additional nutrients to the sloth when they groom themselves by licking their fur."),
+        FactCasuzquiz(title: "Paper Can Be Folded", content: "It is a common belief that a piece of paper can only be folded seven times, but this limit applies only to regular-sized sheets. Using a much larger piece of paper and advanced techniques, a group of physicists managed to fold paper 12 times. Each fold exponentially increases the paper’s thickness, making it challenging to continue."),
+        FactCasuzquiz(title: "Sharks Don’t Have Bones", content: "Unlike most fish, sharks have skeletons made entirely of cartilage, the same flexible tissue found in human noses and ears. This lightweight structure allows them to be more buoyant and agile in water, making them highly efficient predators. The lack of bones also means that fossilized shark skeletons are rare, as cartilage decomposes quickly."),
+        FactCasuzquiz(title: "Ants Never Sleep", content: "Ants do not experience sleep as humans do. Instead, they have short periods of inactivity where their bodies enter a state of rest, but they remain alert to danger or tasks. Some ant species even work in shifts to ensure that the colony is always active, demonstrating their extraordinary teamwork and efficiency."),
+        FactCasuzquiz(title: "Water Bears in Space", content: "Tardigrades, also known as water bears, are microscopic creatures that can survive some of the harshest conditions imaginable, including extreme heat, freezing temperatures, and the vacuum of space. They achieve this by entering a state called cryptobiosis, where they lose almost all water in their bodies and shut down metabolic processes, allowing them to withstand environments that would be fatal to most life forms."),
+        FactCasuzquiz(title: "The Moon Shrinks", content: "The Moon is gradually shrinking as its interior cools and contracts, causing its surface to form cliffs called thrust faults. These cliffs are evidence of 'moonquakes,' which can measure up to 5 on the Richter scale. Unlike earthquakes, moonquakes occur due to the Moon’s slow cooling rather than tectonic plate movements."),
+        FactCasuzquiz(title: "Pineapple Takes Time", content: "Growing a pineapple is a lengthy process that requires patience. After planting, it takes around two years for a pineapple plant to produce a single fruit. Once harvested, the plant can grow additional fruits, but the process remains slow. Despite this, pineapples are highly valued for their sweet taste and health benefits."),
+        FactCasuzquiz(title: "Butterflies Taste With Their Feet", content: "Butterflies have taste sensors on their feet, allowing them to detect the chemical composition of surfaces they land on. This ability helps them identify plants that are suitable for laying eggs or feeding. When a butterfly lands on a leaf, it immediately knows if it contains the necessary nutrients for its larvae.")
 ]

@@ -137,412 +137,478 @@ struct Tab4QuestionCasuzquiz {
     
     static let list: [Tab4QuestionCasuzquiz] = [
         Tab4QuestionCasuzquiz(
-                question: "What is the largest mammal in the world?",
-                hint1: "It lives in the ocean.",
-                hint2: "It is a type of whale.",
-                answer: "Blue Whale"
+            question: "What is the capital city of France?",
+            hint1: "It’s known as the 'City of Light'.",
+            hint2: "Its name starts with 'P'.",
+            answer: "Paris"
+        ),
+        Tab4QuestionCasuzquiz(
+            question: "Which element has the chemical symbol 'O'?",
+            hint1: "It is essential for breathing.",
+            hint2: "It makes up about 21% of the Earth's atmosphere.",
+            answer: "Oxygen"
+        ),
+        Tab4QuestionCasuzquiz(
+            question: "What is the name of the process plants use to make their food?",
+            hint1: "It involves sunlight.",
+            hint2: "The process starts with 'P'.",
+            answer: "Photosynthesis"
+        ),
+        Tab4QuestionCasuzquiz(
+            question: "Who painted the Mona Lisa?",
+            hint1: "He was a famous Italian artist and inventor.",
+            hint2: "His name is Leonardo.",
+            answer: "Leonardo da Vinci"
+        ),
+        Tab4QuestionCasuzquiz(
+            question: "What is the fastest land animal?",
+            hint1: "It can run at speeds over 70 mph.",
+            hint2: "It starts with 'C'.",
+            answer: "Cheetah"
+        ),
+        Tab4QuestionCasuzquiz(
+            question: "Which planet is known as the Red Planet?",
+            hint1: "It’s the fourth planet from the Sun.",
+            hint2: "Its name starts with 'M'.",
+            answer: "Mars"
+        ),
+        Tab4QuestionCasuzquiz(
+            question: "What is the largest desert in the world?",
+            hint1: "It is not hot; it is cold.",
+            hint2: "It covers Antarctica.",
+            answer: "Antarctic Desert"
+        ),
+        Tab4QuestionCasuzquiz(
+            question: "What is the boiling point of water at sea level in Celsius?",
+            hint1: "It’s a two-digit number.",
+            hint2: "It’s 100 degrees.",
+            answer: "100°C"
+        ),
+        Tab4QuestionCasuzquiz(
+            question: "What is the main language spoken in Brazil?",
+            hint1: "It’s not Spanish.",
+            hint2: "It’s Portuguese.",
+            answer: "Portuguese"
+        ),
+        Tab4QuestionCasuzquiz(
+            question: "What is the name of the longest river in the world?",
+            hint1: "It’s located in South America.",
+            hint2: "Its name starts with 'A'.",
+            answer: "Amazon River"
+        ),
+        Tab4QuestionCasuzquiz(
+            question: "Who wrote the play 'Romeo and Juliet'?",
+            hint1: "He is a famous English playwright.",
+            hint2: "His last name starts with 'S'.",
+            answer: "William Shakespeare"
+        ),
+        Tab4QuestionCasuzquiz(
+            question: "What is the hardest natural substance on Earth?",
+            hint1: "It’s often used in jewelry.",
+            hint2: "It starts with 'D'.",
+            answer: "Diamond"
+        ),
+        Tab4QuestionCasuzquiz(
+            question: "Which animal is known for building dams?",
+            hint1: "It’s a rodent.",
+            hint2: "Its name starts with 'B'.",
+            answer: "Beaver"
+        ),
+        Tab4QuestionCasuzquiz(
+            question: "What is the currency used in Japan?",
+            hint1: "It starts with 'Y'.",
+            hint2: "It’s the Yen.",
+            answer: "Yen"
+        ),
+        Tab4QuestionCasuzquiz(
+            question: "Which country gifted the Statue of Liberty to the USA?",
+            hint1: "It’s in Europe.",
+            hint2: "Its name starts with 'F'.",
+            answer: "France"
+        ),
+        Tab4QuestionCasuzquiz(
+            question: "What is the name of the first man to walk on the moon?",
+            hint1: "His first name is Neil.",
+            hint2: "His last name is Armstrong.",
+            answer: "Neil Armstrong"
+        ),
+        Tab4QuestionCasuzquiz(
+            question: "What is the largest bone in the human body?",
+            hint1: "It’s located in the leg.",
+            hint2: "Its name is the femur.",
+            answer: "Femur"
+        ),
+        Tab4QuestionCasuzquiz(
+            question: "What is the term for animals that eat only plants?",
+            hint1: "It starts with 'H'.",
+            hint2: "It’s herbivore.",
+            answer: "Herbivore"
+        ),
+        Tab4QuestionCasuzquiz(
+            question: "What is the primary gas in Earth's atmosphere?",
+            hint1: "It makes up 78% of the atmosphere.",
+            hint2: "Its chemical symbol is 'N'.",
+            answer: "Nitrogen"
+        ),
+        Tab4QuestionCasuzquiz(
+            question: "Which ancient civilization built the pyramids?",
+            hint1: "It’s located in Africa.",
+            hint2: "The civilization is Egyptian.",
+            answer: "Egyptians"
+        ),
+        Tab4QuestionCasuzquiz(
+            question: "What is the longest river in Africa?",
+            hint1: "Its name starts with 'N'.",
+            hint2: "It flows through multiple countries.",
+            answer: "Nile River"
+        ),
+        Tab4QuestionCasuzquiz(
+            question: "What is the main ingredient in guacamole?",
+            hint1: "It’s a type of fruit.",
+            hint2: "Its name starts with 'A'.",
+            answer: "Avocado"
+        ),
+        Tab4QuestionCasuzquiz(
+            question: "Which animal is known as the king of the jungle?",
+            hint1: "It has a mane.",
+            hint2: "Its name starts with 'L'.",
+            answer: "Lion"
+        ),
+        Tab4QuestionCasuzquiz(
+            question: "Who invented the telephone?",
+            hint1: "His first name is Alexander.",
+            hint2: "His last name starts with 'G'.",
+            answer: "Alexander Graham Bell"
+        ),
+        Tab4QuestionCasuzquiz(
+            question: "What is the largest island in the world?",
+            hint1: "Its name starts with 'G'.",
+            hint2: "It’s located near the Arctic Circle.",
+            answer: "Greenland"
+        ),
+        Tab4QuestionCasuzquiz(
+            question: "What is the name of the first artificial Earth satellite?",
+            hint1: "It was launched by the Soviet Union.",
+            hint2: "Its name starts with 'S'.",
+            answer: "Sputnik"
+        ),
+        Tab4QuestionCasuzquiz(
+            question: "What is the smallest country in the world?",
+            hint1: "It is located in Europe.",
+            hint2: "Its name starts with 'V'.",
+            answer: "Vatican City"
+        ),
+        Tab4QuestionCasuzquiz(
+            question: "Which ocean is the largest in the world?",
+            hint1: "Its name starts with 'P'.",
+            hint2: "It covers more area than all landmasses combined.",
+            answer: "Pacific Ocean"
+        ),
+        Tab4QuestionCasuzquiz(
+            question: "Which planet is known for its rings?",
+            hint1: "It’s the sixth planet from the Sun.",
+            hint2: "Its name starts with 'S'.",
+            answer: "Saturn"
+        ),
+        Tab4QuestionCasuzquiz(
+            question: "What is the capital city of Canada?",
+            hint1: "It’s not Toronto.",
+            hint2: "Its name starts with 'O'.",
+            answer: "Ottawa"
+        ),
+        Tab4QuestionCasuzquiz(
+            question: "What is the most populous country in the world?",
+            hint1: "Its name starts with 'C'.",
+            hint2: "Its population exceeds 1.4 billion.",
+            answer: "China"
+        ),
+        Tab4QuestionCasuzquiz(
+            question: "Who discovered the theory of relativity?",
+            hint1: "His first name is Albert.",
+            hint2: "His last name starts with 'E'.",
+            answer: "Albert Einstein"
+        ),
+        Tab4QuestionCasuzquiz(
+            question: "What is the largest continent?",
+            hint1: "Its name starts with 'A'.",
+            hint2: "It is home to more than half of the world's population.",
+            answer: "Asia"
+        ),
+        Tab4QuestionCasuzquiz(
+            question: "What is the longest mountain range in the world?",
+            hint1: "It is located in South America.",
+            hint2: "Its name starts with 'A'.",
+            answer: "Andes"
+        ),
+        Tab4QuestionCasuzquiz(
+            question: "Which sea creature has three hearts?",
+            hint1: "It’s a type of mollusk.",
+            hint2: "Its name starts with 'O'.",
+            answer: "Octopus"
+        ),
+        Tab4QuestionCasuzquiz(
+            question: "What is the largest volcano on Earth?",
+            hint1: "It’s located in Hawaii.",
+            hint2: "Its name starts with 'M'.",
+            answer: "Mauna Loa"
+        ),
+        Tab4QuestionCasuzquiz(
+            question: "Which country has the most islands in the world?",
+            hint1: "Its name starts with 'S'.",
+            hint2: "It has over 267,000 islands.",
+            answer: "Sweden"
+        ),
+        Tab4QuestionCasuzquiz(
+            question: "What is the most famous pyramid in Egypt?",
+            hint1: "It’s located near Cairo.",
+            hint2: "Its name starts with 'G'.",
+            answer: "Great Pyramid of Giza"
+        ),
+        Tab4QuestionCasuzquiz(
+            question: "What is the hardest material known to man?",
+            hint1: "It’s used in cutting tools.",
+            hint2: "Its name starts with 'D'.",
+            answer: "Diamond"
+        ),
+        Tab4QuestionCasuzquiz(
+            question: "What is the largest planet in our solar system?",
+            hint1: "Its name starts with 'J'.",
+            hint2: "It has a large storm called the Great Red Spot.",
+            answer: "Jupiter"
+        ),
+        Tab4QuestionCasuzquiz(
+            question: "What is the currency used in the United Kingdom?",
+            hint1: "It starts with 'P'.",
+            hint2: "It’s a type of pound.",
+            answer: "Pound Sterling"
+        ),
+        Tab4QuestionCasuzquiz(
+            question: "What is the capital city of Japan?",
+            hint1: "It’s one of the largest cities in the world.",
+            hint2: "Its name starts with 'T'.",
+            answer: "Tokyo"
+        ),
+        Tab4QuestionCasuzquiz(
+            question: "Which famous scientist developed the laws of motion and universal gravitation?",
+            hint1: "His first name is Isaac.",
+            hint2: "His last name starts with 'N'.",
+            answer: "Isaac Newton"
+        ),
+        Tab4QuestionCasuzquiz(
+            question: "What is the smallest mammal in the world?",
+            hint1: "It weighs less than a penny.",
+            hint2: "Its name starts with 'B'.",
+            answer: "Bumblebee Bat"
+        ),
+        Tab4QuestionCasuzquiz(
+            question: "Which instrument is used to measure temperature?",
+            hint1: "Its name starts with 'T'.",
+            hint2: "It has a scale marked in Celsius or Fahrenheit.",
+            answer: "Thermometer"
+        ),
+        Tab4QuestionCasuzquiz(
+            question: "What is the capital city of Australia?",
+            hint1: "It’s not Sydney or Melbourne.",
+            hint2: "Its name starts with 'C'.",
+            answer: "Canberra"
+        ),
+        Tab4QuestionCasuzquiz(
+            question: "Which bird is known for its ability to mimic human speech?",
+            hint1: "It’s often kept as a pet.",
+            hint2: "Its name starts with 'P'.",
+            answer: "Parrot"
+        ),
+        Tab4QuestionCasuzquiz(
+            question: "What is the chemical symbol for gold?",
+            hint1: "It’s a noble metal.",
+            hint2: "Its symbol starts with 'A'.",
+            answer: "Au"
+        ),
+        Tab4QuestionCasuzquiz(
+            question: "What is the longest river in the United States?",
+            hint1: "Its name starts with 'M'.",
+            hint2: "It flows through 10 states.",
+            answer: "Missouri River"
+        ),
+        Tab4QuestionCasuzquiz(
+            question: "Which famous artist is known for cutting off his ear?",
+            hint1: "He is a Dutch painter.",
+            hint2: "His name starts with 'V'.",
+            answer: "Vincent van Gogh"
+        ),
+        Tab4QuestionCasuzquiz(
+            question: "What is the tallest mountain in the world?",
+            hint1: "It’s located in the Himalayas.",
+            hint2: "Its name starts with 'E'.",
+            answer: "Mount Everest"
+        ),
+        Tab4QuestionCasuzquiz(
+            question: "What is the largest species of shark?",
+            hint1: "It’s the largest fish in the world.",
+            hint2: "Its name starts with 'W'.",
+            answer: "Whale Shark"
+        ),
+        Tab4QuestionCasuzquiz(
+            question: "What is the name of the longest-running animated TV show?",
+            hint1: "It’s about an American family.",
+            hint2: "Its name starts with 'T'.",
+            answer: "The Simpsons"
+        ),
+        Tab4QuestionCasuzquiz(
+            question: "What is the name of the chemical element with the atomic number 79?",
+            hint1: "It’s used in jewelry.",
+            hint2: "Its name starts with 'G'.",
+            answer: "Gold"
+        ),
+        Tab4QuestionCasuzquiz(
+            question: "Which ocean lies to the east of the United States?",
+            hint1: "It’s known for hurricanes.",
+            hint2: "Its name starts with 'A'.",
+            answer: "Atlantic Ocean"
+        ),
+        Tab4QuestionCasuzquiz(
+            question: "What is the fastest bird in the world?",
+            hint1: "It can reach speeds of over 200 mph.",
+            hint2: "Its name starts with 'P'.",
+            answer: "Peregrine Falcon"
+        ),
+        Tab4QuestionCasuzquiz(
+            question: "Who wrote the novel '1984'?",
+            hint1: "He is a famous British author.",
+            hint2: "His last name starts with 'O'.",
+            answer: "George Orwell"
+        ),
+        Tab4QuestionCasuzquiz(
+            question: "What is the name of the famous clock tower in London?",
+            hint1: "It’s located near the Houses of Parliament.",
+            hint2: "Its name starts with 'B'.",
+            answer: "Big Ben"
+        ),
+        Tab4QuestionCasuzquiz(
+            question: "What is the largest country by area?",
+            hint1: "It spans across Europe and Asia.",
+            hint2: "Its name starts with 'R'.",
+            answer: "Russia"
+        ),
+        Tab4QuestionCasuzquiz(
+            question: "What is the hardest substance known to man?",
+            hint1: "It is commonly used for cutting tools.",
+            hint2: "Its name starts with 'D'.",
+            answer: "Diamond"
+        ),
+        Tab4QuestionCasuzquiz(
+                question: "What is the largest desert in the world?",
+                hint1: "It is not cold.",
+                hint2: "Its name starts with 'S'.",
+                answer: "Sahara Desert"
             ),
             Tab4QuestionCasuzquiz(
-                question: "What is the smallest planet in our solar system?",
-                hint1: "It’s closest to the Sun.",
-                hint2: "Its name starts with 'M'.",
-                answer: "Mercury"
+                question: "Which country is known as the Land of the Rising Sun?",
+                hint1: "Its name starts with 'J'.",
+                hint2: "It is an island nation in Asia.",
+                answer: "Japan"
             ),
             Tab4QuestionCasuzquiz(
-                question: "Which element has the chemical symbol 'O'?",
-                hint1: "It is essential for breathing.",
-                hint2: "Makes up about 21% of Earth's atmosphere.",
-                answer: "Oxygen"
+                question: "What is the tallest waterfall in the world?",
+                hint1: "It is located in Venezuela.",
+                hint2: "Its name starts with 'A'.",
+                answer: "Angel Falls"
             ),
             Tab4QuestionCasuzquiz(
-                question: "Who painted the Mona Lisa?",
-                hint1: "He was an Italian polymath.",
-                hint2: "His first name is Leonardo.",
+                question: "Who painted the 'Mona Lisa'?",
+                hint1: "He was an Italian Renaissance artist.",
+                hint2: "His name starts with 'L'.",
                 answer: "Leonardo da Vinci"
             ),
             Tab4QuestionCasuzquiz(
-                question: "What is the tallest mountain in the world?",
-                hint1: "Located in the Himalayas.",
-                hint2: "Its height is over 8,800 meters.",
-                answer: "Mount Everest"
+                question: "What is the main ingredient in sushi?",
+                hint1: "It’s a type of rice.",
+                hint2: "Its name starts with 'S'.",
+                answer: "Sushi Rice"
             ),
             Tab4QuestionCasuzquiz(
-                question: "What is the hardest natural substance on Earth?",
-                hint1: "It’s often used in jewelry.",
-                hint2: "It’s a form of carbon.",
-                answer: "Diamond"
+                question: "What is the capital city of France?",
+                hint1: "It’s known for the Eiffel Tower.",
+                hint2: "Its name starts with 'P'.",
+                answer: "Paris"
             ),
             Tab4QuestionCasuzquiz(
-                question: "Which country is home to the kangaroo?",
-                hint1: "It’s a continent and a country.",
-                hint2: "Its capital is Canberra.",
+                question: "Which planet is known as the Red Planet?",
+                hint1: "Its name starts with 'M'.",
+                hint2: "It’s the fourth planet from the Sun.",
+                answer: "Mars"
+            ),
+            Tab4QuestionCasuzquiz(
+                question: "What is the most famous painting by Vincent van Gogh?",
+                hint1: "It depicts a night sky.",
+                hint2: "Its name starts with 'S'.",
+                answer: "Starry Night"
+            ),
+            Tab4QuestionCasuzquiz(
+                question: "What is the longest-running Broadway show?",
+                hint1: "It’s a musical.",
+                hint2: "Its name starts with 'C'.",
+                answer: "The Phantom of the Opera"
+            ),
+            Tab4QuestionCasuzquiz(
+                question: "Which sea is the saltiest?",
+                hint1: "It’s located between Jordan and Israel.",
+                hint2: "Its name starts with 'D'.",
+                answer: "Dead Sea"
+            ),
+            Tab4QuestionCasuzquiz(
+                question: "What is the largest organ in the human body?",
+                hint1: "It protects internal organs.",
+                hint2: "Its name starts with 'S'.",
+                answer: "Skin"
+            ),
+            Tab4QuestionCasuzquiz(
+                question: "What is the capital city of Italy?",
+                hint1: "It’s known for its ancient history.",
+                hint2: "Its name starts with 'R'.",
+                answer: "Rome"
+            ),
+            Tab4QuestionCasuzquiz(
+                question: "Which fruit is known as the king of fruits?",
+                hint1: "It has a strong odor.",
+                hint2: "Its name starts with 'D'.",
+                answer: "Durian"
+            ),
+            Tab4QuestionCasuzquiz(
+                question: "What is the name of the first human to walk on the Moon?",
+                hint1: "His first name is Neil.",
+                hint2: "His last name starts with 'A'.",
+                answer: "Neil Armstrong"
+            ),
+            Tab4QuestionCasuzquiz(
+                question: "Which country is home to the Great Barrier Reef?",
+                hint1: "Its name starts with 'A'.",
+                hint2: "It’s a large island continent.",
                 answer: "Australia"
             ),
             Tab4QuestionCasuzquiz(
-                question: "What is the chemical symbol for water?",
-                hint1: "It consists of hydrogen and oxygen.",
-                hint2: "Its formula contains 'H' and 'O'.",
-                answer: "H2O"
-            ),
-            Tab4QuestionCasuzquiz(
-                question: "Which planet is the hottest in the solar system?",
-                hint1: "It has a thick atmosphere.",
-                hint2: "It’s the second planet from the Sun.",
-                answer: "Venus"
-            ),
-            Tab4QuestionCasuzquiz(
-                question: "Who wrote 'Romeo and Juliet'?",
-                hint1: "He is a famous English playwright.",
-                hint2: "His last name is Shakespeare.",
-                answer: "William Shakespeare"
-            ),
-            Tab4QuestionCasuzquiz(
-                question: "What is the capital of Japan?",
-                hint1: "It’s one of the most populous cities in the world.",
-                hint2: "The name starts with 'T'.",
-                answer: "Tokyo"
-            ),
-            Tab4QuestionCasuzquiz(
-                question: "What is the largest ocean on Earth?",
-                hint1: "It covers more than 30% of Earth's surface.",
-                hint2: "Its name starts with 'P'.",
-                answer: "Pacific Ocean"
+                question: "What is the name of the famous wizarding school in the 'Harry Potter' series?",
+                hint1: "Its name starts with 'H'.",
+                hint2: "It’s located in Scotland.",
+                answer: "Hogwarts"
             ),
             Tab4QuestionCasuzquiz(
                 question: "What is the fastest land animal?",
                 hint1: "It’s a type of big cat.",
-                hint2: "It can reach speeds up to 70 mph.",
+                hint2: "Its name starts with 'C'.",
                 answer: "Cheetah"
             ),
             Tab4QuestionCasuzquiz(
-                question: "What is the chemical symbol for gold?",
-                hint1: "Its symbol comes from Latin.",
-                hint2: "The symbol is two letters: 'A' and 'U'.",
-                answer: "Au"
-            ),
-            Tab4QuestionCasuzquiz(
-                question: "Which planet is famous for its rings?",
-                hint1: "It’s the sixth planet from the Sun.",
-                hint2: "Its name starts with 'S'.",
-                answer: "Saturn"
-            ),
-            Tab4QuestionCasuzquiz(
-                question: "What is the longest river in the world?",
-                hint1: "It flows through South America.",
-                hint2: "It’s named after a rainforest.",
-                answer: "Amazon River"
-            ),
-            Tab4QuestionCasuzquiz(
-                question: "What is the freezing point of water?",
-                hint1: "Measured in degrees Celsius.",
-                hint2: "It’s the same as 32°F.",
-                answer: "0°C"
-            ),
-            Tab4QuestionCasuzquiz(
-                question: "What is the largest country by area?",
-                hint1: "It spans Europe and Asia.",
-                hint2: "Its capital is Moscow.",
-                answer: "Russia"
-            ),
-            Tab4QuestionCasuzquiz(
-                question: "What is the main ingredient in guacamole?",
-                hint1: "It’s a green fruit.",
-                hint2: "It’s often eaten with nachos.",
-                answer: "Avocado"
-            ),
-            Tab4QuestionCasuzquiz(
-                question: "Which country is known as the Land of the Rising Sun?",
-                hint1: "Its flag has a red circle.",
-                hint2: "It’s located in East Asia.",
-                answer: "Japan"
-            ),
-            Tab4QuestionCasuzquiz(
-                question: "Who discovered gravity?",
-                hint1: "He was an English mathematician.",
-                hint2: "He formulated the laws of motion.",
-                answer: "Isaac Newton"
-            ),
-            Tab4QuestionCasuzquiz(
-                question: "What is the national flower of Japan?",
-                hint1: "It blooms in spring.",
-                hint2: "Its name is a type of tree.",
-                answer: "Cherry Blossom"
-            ),
-            Tab4QuestionCasuzquiz(
-                question: "What is the capital of Canada?",
-                hint1: "It’s not Toronto.",
-                hint2: "It’s located in Ontario.",
-                answer: "Ottawa"
-            ),
-            Tab4QuestionCasuzquiz(
-                question: "What is the term for animals that eat only plants?",
-                hint1: "Examples include cows and deer.",
-                hint2: "The term starts with 'H'.",
-                answer: "Herbivores"
-            ),
-            Tab4QuestionCasuzquiz(
-                question: "What is the smallest bone in the human body?",
-                hint1: "It’s located in the ear.",
-                hint2: "Its name starts with 'S'.",
-                answer: "Stapes"
-            ),
-            Tab4QuestionCasuzquiz(
-                question: "What is the boiling point of water in Celsius?",
-                hint1: "It’s a round number.",
-                hint2: "It’s 100 degrees.",
-                answer: "100°C"
-            ),
-            Tab4QuestionCasuzquiz(
-                question: "What is the largest desert in the world?",
-                hint1: "It’s not hot but cold.",
-                hint2: "It’s located in Antarctica.",
-                answer: "Antarctic Desert"
-            ),
-            Tab4QuestionCasuzquiz(
-                question: "Which organ pumps blood through the body?",
-                hint1: "It’s part of the circulatory system.",
-                hint2: "It beats around 60-100 times per minute.",
-                answer: "Heart"
-            ),
-            Tab4QuestionCasuzquiz(
-                question: "What is the main gas found in the air we breathe?",
-                hint1: "It makes up about 78% of the atmosphere.",
-                hint2: "Its chemical symbol is 'N'.",
-                answer: "Nitrogen"
-            ),
-        Tab4QuestionCasuzquiz(
-                question: "What is the largest planet in our solar system?",
-                hint1: "It is famous for its Great Red Spot.",
-                hint2: "It’s the fifth planet from the Sun.",
-                answer: "Jupiter"
-            ),
-            Tab4QuestionCasuzquiz(
-                question: "What is the name of the process by which plants make their food?",
-                hint1: "It requires sunlight and water.",
-                hint2: "Its name starts with 'P'.",
-                answer: "Photosynthesis"
-            ),
-            Tab4QuestionCasuzquiz(
-                question: "What is the most widely spoken language in the world?",
-                hint1: "It’s spoken in China.",
-                hint2: "It’s also called Mandarin.",
-                answer: "Chinese"
-            ),
-            Tab4QuestionCasuzquiz(
-                question: "What is the capital of Italy?",
-                hint1: "It’s known for its ancient ruins.",
-                hint2: "It’s home to the Colosseum.",
-                answer: "Rome"
-            ),
-            Tab4QuestionCasuzquiz(
-                question: "Which metal is liquid at room temperature?",
-                hint1: "Its chemical symbol is 'Hg'.",
-                hint2: "It’s often used in thermometers.",
-                answer: "Mercury"
-            ),
-            Tab4QuestionCasuzquiz(
-                question: "What is the term for a baby frog?",
-                hint1: "It has a tail and lives in water.",
-                hint2: "Its name starts with 'T'.",
-                answer: "Tadpole"
-            ),
-            Tab4QuestionCasuzquiz(
-                question: "Which planet is known as the Morning Star?",
-                hint1: "It’s also the Evening Star.",
-                hint2: "It’s the second planet from the Sun.",
-                answer: "Venus"
-            ),
-            Tab4QuestionCasuzquiz(
-                question: "What is the capital of Germany?",
-                hint1: "It was divided during the Cold War.",
-                hint2: "Its name starts with 'B'.",
-                answer: "Berlin"
-            ),
-            Tab4QuestionCasuzquiz(
-                question: "What is the smallest unit of life?",
-                hint1: "It’s the basic building block of all organisms.",
-                hint2: "Its name starts with 'C'.",
-                answer: "Cell"
-            ),
-            Tab4QuestionCasuzquiz(
-                question: "Which bird is known for its ability to mimic sounds?",
-                hint1: "It’s often kept as a pet.",
-                hint2: "Its name starts with 'P'.",
-                answer: "Parrot"
-            ),
-            Tab4QuestionCasuzquiz(
-                question: "What is the main ingredient in chocolate?",
-                hint1: "It comes from a type of bean.",
-                hint2: "Its name starts with 'C'.",
-                answer: "Cocoa"
-            ),
-            Tab4QuestionCasuzquiz(
-                question: "What is the name of the longest bone in the human body?",
-                hint1: "It’s located in the leg.",
-                hint2: "Its name starts with 'F'.",
-                answer: "Femur"
-            ),
-            Tab4QuestionCasuzquiz(
-                question: "What is the main currency used in the United Kingdom?",
-                hint1: "It’s not the Euro.",
-                hint2: "Its symbol is '£'.",
-                answer: "Pound Sterling"
-            ),
-            Tab4QuestionCasuzquiz(
-                question: "What is the chemical symbol for iron?",
-                hint1: "Its symbol comes from Latin.",
-                hint2: "It’s 'Fe'.",
-                answer: "Fe"
-            ),
-            Tab4QuestionCasuzquiz(
-                question: "What is the name of the process by which water turns into vapor?",
-                hint1: "It happens when water is heated.",
-                hint2: "Its name starts with 'E'.",
-                answer: "Evaporation"
-            ),
-            Tab4QuestionCasuzquiz(
-                question: "What is the capital of Spain?",
-                hint1: "It’s famous for its art and culture.",
-                hint2: "Its name starts with 'M'.",
-                answer: "Madrid"
-            ),
-            Tab4QuestionCasuzquiz(
-                question: "Which sea creature has three hearts?",
-                hint1: "It’s a type of mollusk.",
+                question: "Which element has the chemical symbol 'O'?",
+                hint1: "It is essential for respiration.",
                 hint2: "Its name starts with 'O'.",
-                answer: "Octopus"
+                answer: "Oxygen"
             ),
             Tab4QuestionCasuzquiz(
-                question: "What is the hardest part of the human body?",
-                hint1: "It’s found in the mouth.",
-                hint2: "It’s the outer layer of teeth.",
-                answer: "Enamel"
-            ),
-            Tab4QuestionCasuzquiz(
-                question: "What is the most abundant gas in Earth’s atmosphere?",
-                hint1: "It’s not oxygen.",
-                hint2: "Its symbol is 'N'.",
-                answer: "Nitrogen"
-            ),
-            Tab4QuestionCasuzquiz(
-                question: "Which country is known for inventing pizza?",
-                hint1: "It’s in Europe.",
-                hint2: "Its capital is Rome.",
-                answer: "Italy"
-            ),
-            Tab4QuestionCasuzquiz(
-                question: "What is the smallest continent by area?",
-                hint1: "It’s also a country.",
-                hint2: "Its name starts with 'A'.",
-                answer: "Australia"
-            ),
-            Tab4QuestionCasuzquiz(
-                question: "What is the currency of Japan?",
-                hint1: "Its symbol is '¥'.",
-                hint2: "Its name starts with 'Y'.",
-                answer: "Yen"
-            ),
-            Tab4QuestionCasuzquiz(
-                question: "What is the largest organ in the human body?",
-                hint1: "It’s on the outside.",
-                hint2: "It protects us from external harm.",
-                answer: "Skin"
-            ),
-            Tab4QuestionCasuzquiz(
-                question: "What is the main ingredient in bread?",
-                hint1: "It’s made from grains.",
-                hint2: "It starts with 'F'.",
-                answer: "Flour"
-            ),
-            Tab4QuestionCasuzquiz(
-                question: "Which planet is known for its large storms?",
-                hint1: "It’s the largest planet in the solar system.",
-                hint2: "It has a Great Red Spot.",
-                answer: "Jupiter"
-            ),
-            Tab4QuestionCasuzquiz(
-                question: "What is the process by which plants lose water through their leaves?",
-                hint1: "It starts with 'T'.",
-                hint2: "It’s important for the water cycle.",
-                answer: "Transpiration"
-            ),
-            Tab4QuestionCasuzquiz(
-                question: "What is the tallest animal in the world?",
-                hint1: "It has a long neck.",
-                hint2: "Its name starts with 'G'.",
-                answer: "Giraffe"
-            ),
-            Tab4QuestionCasuzquiz(
-                question: "Which metal is the best conductor of electricity?",
-                hint1: "It’s more conductive than gold.",
-                hint2: "Its symbol is 'Ag'.",
-                answer: "Silver"
-            ),
-            Tab4QuestionCasuzquiz(
-                question: "Which organ is responsible for detoxifying the blood?",
-                hint1: "It’s located in the abdomen.",
-                hint2: "Its name starts with 'L'.",
-                answer: "Liver"
-            ),
-            Tab4QuestionCasuzquiz(
-                question: "What is the main language spoken in Brazil?",
-                hint1: "It’s not Spanish.",
-                hint2: "Its name starts with 'P'.",
-                answer: "Portuguese"
-            ),
-            Tab4QuestionCasuzquiz(
-                question: "What is the largest island in the world?",
-                hint1: "It’s covered mostly by ice.",
-                hint2: "Its name starts with 'G'.",
-                answer: "Greenland"
-            ),
-            Tab4QuestionCasuzquiz(
-                question: "Which gas do plants absorb during photosynthesis?",
-                hint1: "It’s found in the air.",
-                hint2: "Its symbol is 'CO2'.",
-                answer: "Carbon Dioxide"
-            ),
-            Tab4QuestionCasuzquiz(
-                question: "What is the closest star to Earth?",
-                hint1: "It provides us with light and heat.",
-                hint2: "Its name starts with 'S'.",
-                answer: "Sun"
-            ),
-            Tab4QuestionCasuzquiz(
-                question: "What is the primary source of energy for life on Earth?",
-                hint1: "It’s a star.",
-                hint2: "It rises every morning.",
-                answer: "Sun"
-            ),
-            Tab4QuestionCasuzquiz(
-                question: "What is the largest land carnivore?",
-                hint1: "It’s found in the Arctic.",
-                hint2: "Its name starts with 'P'.",
-                answer: "Polar Bear"
-            ),
-            Tab4QuestionCasuzquiz(
-                question: "What is the capital of Russia?",
-                hint1: "It’s the largest city in Russia.",
-                hint2: "Its name starts with 'M'.",
-                answer: "Moscow"
-            ),
-            Tab4QuestionCasuzquiz(
-                question: "What is the most populous country in the world?",
-                hint1: "Its flag is red with stars.",
-                hint2: "Its capital is Beijing.",
-                answer: "China"
-            ),
-            Tab4QuestionCasuzquiz(
-                question: "What is the study of stars and planets called?",
-                hint1: "It starts with 'A'.",
-                hint2: "It’s the study of space.",
-                answer: "Astronomy"
-            ),
-            Tab4QuestionCasuzquiz(
-                question: "What is the main gas in the bubbles of soda?",
-                hint1: "Its symbol is 'CO2'.",
-                hint2: "It’s also used in fire extinguishers.",
-                answer: "Carbon Dioxide"
+                question: "What is the main ingredient in hummus?",
+                hint1: "It’s made from legumes.",
+                hint2: "Its name starts with 'C'.",
+                answer: "Chickpeas"
             )
     ]
 }

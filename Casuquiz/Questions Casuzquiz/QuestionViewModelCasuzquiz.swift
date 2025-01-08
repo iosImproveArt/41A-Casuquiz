@@ -103,364 +103,29 @@ struct QuestionCasuzquiz {
             answerOptions: ["Heart", "Lungs", "Liver", "Kidneys"]
         ),
         QuestionCasuzquiz(
-            question: "What is the capital city of Japan?",
-            correctAnswer: "Tokyo",
-            answerOptions: ["Beijing", "Seoul", "Tokyo", "Kyoto"]
+            question: "Who developed the theory of relativity?",
+            correctAnswer: "Albert Einstein",
+            answerOptions: ["Isaac Newton", "Galileo Galilei", "Albert Einstein", "Nikola Tesla"]
         ),
         QuestionCasuzquiz(
-            question: "Which element has the chemical symbol 'O'?",
-            correctAnswer: "Oxygen",
-            answerOptions: ["Oxygen", "Osmium", "Ozone", "Opium"]
-        ),
-        QuestionCasuzquiz(
-            question: "What is the largest planet in our solar system?",
-            correctAnswer: "Jupiter",
-            answerOptions: ["Earth", "Mars", "Jupiter", "Saturn"]
-        ),
-        QuestionCasuzquiz(
-            question: "Who wrote the play 'Romeo and Juliet'?",
-            correctAnswer: "William Shakespeare",
-            answerOptions: ["William Shakespeare", "Charles Dickens", "Jane Austen", "Mark Twain"]
-        ),
-        QuestionCasuzquiz(
-            question: "What is the boiling point of water at sea level in Celsius?",
-            correctAnswer: "100°C",
-            answerOptions: ["90°C", "100°C", "110°C", "120°C"]
-        ),
-        QuestionCasuzquiz(
-            question: "What is the longest river in the world?",
-            correctAnswer: "Nile",
-            answerOptions: ["Amazon", "Nile", "Yangtze", "Mississippi"]
-        ),
-        QuestionCasuzquiz(
-            question: "What is the chemical symbol for gold?",
-            correctAnswer: "Au",
-            answerOptions: ["Ag", "Au", "Fe", "Pb"]
+            question: "Which element has the atomic number 1?",
+            correctAnswer: "Hydrogen",
+            answerOptions: ["Oxygen", "Helium", "Hydrogen", "Carbon"]
         ),
         QuestionCasuzquiz(
             question: "Which planet is known as the Red Planet?",
             correctAnswer: "Mars",
-            answerOptions: ["Venus", "Mars", "Jupiter", "Saturn"]
+            answerOptions: ["Earth", "Mars", "Jupiter", "Venus"]
         ),
         QuestionCasuzquiz(
-            question: "What is the freezing point of water in Fahrenheit?",
-            correctAnswer: "32°F",
-            answerOptions: ["0°F", "32°F", "50°F", "100°F"]
+            question: "Who wrote the play 'Romeo and Juliet'?",
+            correctAnswer: "William Shakespeare",
+            answerOptions: ["Charles Dickens", "Mark Twain", "William Shakespeare", "Jane Austen"]
         ),
         QuestionCasuzquiz(
-            question: "Who painted the Mona Lisa?",
-            correctAnswer: "Leonardo da Vinci",
-            answerOptions: ["Pablo Picasso", "Vincent van Gogh", "Leonardo da Vinci", "Claude Monet"]
-        ),
-        QuestionCasuzquiz(
-            question: "What is the hardest natural substance on Earth?",
-            correctAnswer: "Diamond",
-            answerOptions: ["Gold", "Iron", "Diamond", "Platinum"]
-        ),
-        QuestionCasuzquiz(
-            question: "What is the square root of 64?",
-            correctAnswer: "8",
-            answerOptions: ["6", "7", "8", "9"]
-        ),
-        QuestionCasuzquiz(
-            question: "Which country is known as the Land of the Rising Sun?",
-            correctAnswer: "Japan",
-            answerOptions: ["China", "Japan", "South Korea", "Thailand"]
-        ),
-        QuestionCasuzquiz(
-            question: "What is the capital of France?",
+            question: "What is the capital city of France?",
             correctAnswer: "Paris",
             answerOptions: ["Berlin", "Madrid", "Paris", "Rome"]
-        ),
-        QuestionCasuzquiz(
-            question: "What is the primary ingredient in guacamole?",
-            correctAnswer: "Avocado",
-            answerOptions: ["Tomato", "Lettuce", "Avocado", "Onion"]
-        ),
-        QuestionCasuzquiz(
-            question: "Which gas do plants absorb from the atmosphere?",
-            correctAnswer: "Carbon dioxide",
-            answerOptions: ["Oxygen", "Nitrogen", "Carbon dioxide", "Hydrogen"]
-        ),
-        QuestionCasuzquiz(
-            question: "Who invented the light bulb?",
-            correctAnswer: "Thomas Edison",
-            answerOptions: ["Nikola Tesla", "Albert Einstein", "Thomas Edison", "Alexander Graham Bell"]
-        ),
-        QuestionCasuzquiz(
-            question: "What is the capital of Australia?",
-            correctAnswer: "Canberra",
-            answerOptions: ["Sydney", "Melbourne", "Canberra", "Perth"]
-        ),
-        QuestionCasuzquiz(
-            question: "What is the chemical symbol for iron?",
-            correctAnswer: "Fe",
-            answerOptions: ["Fe", "Ir", "I", "In"]
-        ),
-        QuestionCasuzquiz(
-            question: "What is the largest mammal on Earth?",
-            correctAnswer: "Blue whale",
-            answerOptions: ["Elephant", "Blue whale", "Giraffe", "Shark"]
-        ),
-        QuestionCasuzquiz(
-            question: "Which element is most abundant in the Earth's crust?",
-            correctAnswer: "Oxygen",
-            answerOptions: ["Oxygen", "Silicon", "Iron", "Calcium"]
-        ),
-        QuestionCasuzquiz(
-            question: "Who was the first president of the United States?",
-            correctAnswer: "George Washington",
-            answerOptions: ["Thomas Jefferson", "George Washington", "Abraham Lincoln", "John Adams"]
-        ),
-        QuestionCasuzquiz(
-            question: "Which country is the largest by land area?",
-            correctAnswer: "Russia",
-            answerOptions: ["Canada", "Russia", "China", "United States"]
-        ),
-        QuestionCasuzquiz(
-            question: "Which planet is closest to the Sun?",
-            correctAnswer: "Mercury",
-            answerOptions: ["Venus", "Earth", "Mars", "Mercury"]
-        ),
-        QuestionCasuzquiz(
-            question: "How many continents are there on Earth?",
-            correctAnswer: "7",
-            answerOptions: ["5", "6", "7", "8"]
-        ),
-        QuestionCasuzquiz(
-            question: "What is the main ingredient in sushi?",
-            correctAnswer: "Rice",
-            answerOptions: ["Fish", "Rice", "Seaweed", "Vegetables"]
-        ),
-        QuestionCasuzquiz(
-            question: "What is the largest ocean on Earth?",
-            correctAnswer: "Pacific Ocean",
-            answerOptions: ["Atlantic Ocean", "Indian Ocean", "Pacific Ocean", "Arctic Ocean"]
-        ),
-        QuestionCasuzquiz(
-            question: "What is the longest bone in the human body?",
-            correctAnswer: "Femur",
-            answerOptions: ["Femur", "Humerus", "Tibia", "Radius"]
-        ),
-        QuestionCasuzquiz(
-            question: "Who developed the theory of relativity?",
-            correctAnswer: "Albert Einstein",
-            answerOptions: ["Isaac Newton", "Nikola Tesla", "Albert Einstein", "Galileo Galilei"]
-        ),
-        QuestionCasuzquiz(
-            question: "Which is the largest desert in the world?",
-            correctAnswer: "Sahara",
-            answerOptions: ["Sahara", "Gobi", "Kalahari", "Arctic"]
-        ),
-        QuestionCasuzquiz(
-            question: "Which of the following is a type of tree?",
-            correctAnswer: "Oak",
-            answerOptions: ["Rose", "Tulip", "Oak", "Cactus"]
-        ),
-        QuestionCasuzquiz(
-            question: "What is the smallest country in the world by population?",
-            correctAnswer: "Vatican City",
-            answerOptions: ["San Marino", "Monaco", "Vatican City", "Nauru"]
-        ),
-        QuestionCasuzquiz(
-            question: "Who was the first person to walk on the moon?",
-            correctAnswer: "Neil Armstrong",
-            answerOptions: ["Buzz Aldrin", "Yuri Gagarin", "Neil Armstrong", "Michael Collins"]
-        ),
-        QuestionCasuzquiz(
-            question: "What is the capital of Canada?",
-            correctAnswer: "Ottawa",
-            answerOptions: ["Toronto", "Vancouver", "Ottawa", "Montreal"]
-        ),
-        QuestionCasuzquiz(
-            question: "What is the chemical symbol for silver?",
-            correctAnswer: "Ag",
-            answerOptions: ["Ag", "Au", "Cu", "Pb"]
-        ),
-        QuestionCasuzquiz(
-            question: "What is the largest island in the world?",
-            correctAnswer: "Greenland",
-            answerOptions: ["Australia", "Greenland", "New Guinea", "Borneo"]
-        ),
-        QuestionCasuzquiz(
-            question: "Which animal is known for having a trunk?",
-            correctAnswer: "Elephant",
-            answerOptions: ["Elephant", "Rhino", "Giraffe", "Hippo"]
-        ),
-        QuestionCasuzquiz(
-            question: "What is the chemical symbol for sodium?",
-            correctAnswer: "Na",
-            answerOptions: ["Na", "N", "S", "So"]
-        ),
-        QuestionCasuzquiz(
-            question: "Which gas makes up most of Earth's atmosphere?",
-            correctAnswer: "Nitrogen",
-            answerOptions: ["Oxygen", "Nitrogen", "Carbon dioxide", "Argon"]
-        ),
-        QuestionCasuzquiz(
-            question: "What is the largest species of shark?",
-            correctAnswer: "Whale shark",
-            answerOptions: ["Great white shark", "Tiger shark", "Whale shark", "Hammerhead shark"]
-        ),
-        QuestionCasuzquiz(
-            question: "What is the chemical symbol for potassium?",
-            correctAnswer: "K",
-            answerOptions: ["P", "K", "Po", "Pe"]
-        ),
-        QuestionCasuzquiz(
-            question: "Which planet is known for its rings?",
-            correctAnswer: "Saturn",
-            answerOptions: ["Earth", "Jupiter", "Saturn", "Mars"]
-        ),
-        QuestionCasuzquiz(
-            question: "What is the most common blood type in humans?",
-            correctAnswer: "O",
-            answerOptions: ["A", "B", "AB", "O"]
-        ),
-        QuestionCasuzquiz(
-            question: "Who wrote 'The Odyssey'?",
-            correctAnswer: "Homer",
-            answerOptions: ["Homer", "Virgil", "Shakespeare", "Dante"]
-        ),
-        QuestionCasuzquiz(
-            question: "Which continent is known as the 'Dark Continent'?",
-            correctAnswer: "Africa",
-            answerOptions: ["Asia", "Africa", "South America", "Antarctica"]
-        ),
-        QuestionCasuzquiz(
-            question: "Which famous scientist developed the laws of motion?",
-            correctAnswer: "Isaac Newton",
-            answerOptions: ["Galileo Galilei", "Albert Einstein", "Isaac Newton", "Michael Faraday"]
-        ),
-        QuestionCasuzquiz(
-            question: "What is the largest city in the United States by population?",
-            correctAnswer: "New York City",
-            answerOptions: ["Los Angeles", "Chicago", "New York City", "Houston"]
-        ),
-        QuestionCasuzquiz(
-            question: "What is the most populous country in the world?",
-            correctAnswer: "China",
-            answerOptions: ["India", "China", "United States", "Indonesia"]
-        ),
-        QuestionCasuzquiz(
-            question: "Which famous composer wrote 'The Magic Flute'?",
-            correctAnswer: "Wolfgang Amadeus Mozart",
-            answerOptions: ["Ludwig van Beethoven", "Johann Sebastian Bach", "Wolfgang Amadeus Mozart", "Johannes Brahms"]
-        ),
-        QuestionCasuzquiz(
-            question: "What is the primary function of the human heart?",
-            correctAnswer: "Pumping blood",
-            answerOptions: ["Filtering toxins", "Pumping blood", "Digestion", "Respiration"]
-        ),
-        QuestionCasuzquiz(
-            question: "Which color is a combination of blue and yellow?",
-            correctAnswer: "Green",
-            answerOptions: ["Purple", "Orange", "Green", "Red"]
-        ),
-        QuestionCasuzquiz(
-            question: "What is the chemical formula for water?",
-            correctAnswer: "H2O",
-            answerOptions: ["H2O", "CO2", "O2", "N2"]
-        ),
-        QuestionCasuzquiz(
-            question: "What is the hardest natural substance on Earth?",
-            correctAnswer: "Diamond",
-            answerOptions: ["Gold", "Diamond", "Iron", "Platinum"]
-        ),
-        QuestionCasuzquiz(
-            question: "What is the largest volcano on Earth?",
-            correctAnswer: "Mauna Loa",
-            answerOptions: ["Mount Vesuvius", "Mount Fuji", "Mauna Loa", "Mount Everest"]
-        ),
-        QuestionCasuzquiz(
-            question: "Which country is famous for its kangaroos?",
-            correctAnswer: "Australia",
-            answerOptions: ["United States", "Canada", "Australia", "Brazil"]
-        ),
-        QuestionCasuzquiz(
-            question: "What is the most famous large scale clock tower in London?",
-            correctAnswer: "Big Ben",
-            answerOptions: ["London Eye", "Tower of London", "Big Ben", "Buckingham Palace"]
-        ),
-        QuestionCasuzquiz(
-            question: "Which bird is known for its colorful tail feathers?",
-            correctAnswer: "Peacock",
-            answerOptions: ["Sparrow", "Eagle", "Peacock", "Crow"]
-        ),
-        QuestionCasuzquiz(
-            question: "What is the capital of Italy?",
-            correctAnswer: "Rome",
-            answerOptions: ["Venice", "Florence", "Rome", "Milan"]
-        ),
-        QuestionCasuzquiz(
-            question: "Who painted the famous 'Starry Night'?",
-            correctAnswer: "Vincent van Gogh",
-            answerOptions: ["Pablo Picasso", "Vincent van Gogh", "Claude Monet", "Leonardo da Vinci"]
-        ),
-        QuestionCasuzquiz(
-            question: "What is the capital of the United Kingdom?",
-            correctAnswer: "London",
-            answerOptions: ["London", "Manchester", "Liverpool", "Birmingham"]
-        ),
-        QuestionCasuzquiz(
-            question: "Which metal is liquid at room temperature?",
-            correctAnswer: "Mercury",
-            answerOptions: ["Mercury", "Gold", "Copper", "Iron"]
-        ),
-        QuestionCasuzquiz(
-            question: "Which continent is the Sahara Desert located in?",
-            correctAnswer: "Africa",
-            answerOptions: ["Asia", "Africa", "Australia", "North America"]
-        ),
-        QuestionCasuzquiz(
-            question: "What is the smallest planet in our solar system?",
-            correctAnswer: "Mercury",
-            answerOptions: ["Earth", "Mars", "Mercury", "Venus"]
-        ),
-        QuestionCasuzquiz(
-            question: "What is the chemical symbol for carbon?",
-            correctAnswer: "C",
-            answerOptions: ["C", "Co", "Ca", "Cu"]
-        ),
-        QuestionCasuzquiz(
-            question: "Which of these is the most famous wizard?",
-            correctAnswer: "Harry Potter",
-            answerOptions: ["Gandalf", "Merlin", "Harry Potter", "Dumbledore"]
-        ),
-        QuestionCasuzquiz(
-            question: "What is the primary language spoken in Brazil?",
-            correctAnswer: "Portuguese",
-            answerOptions: ["Spanish", "Portuguese", "English", "French"]
-        ),
-        QuestionCasuzquiz(
-            question: "Which country is famous for its pyramids?",
-            correctAnswer: "Egypt",
-            answerOptions: ["Greece", "Egypt", "Mexico", "China"]
-        ),
-        QuestionCasuzquiz(
-            question: "What is the chemical formula for methane?",
-            correctAnswer: "CH4",
-            answerOptions: ["CO2", "O2", "CH4", "H2O"]
-        ),
-        QuestionCasuzquiz(
-            question: "What is the national flower of Japan?",
-            correctAnswer: "Cherry Blossom",
-            answerOptions: ["Rose", "Tulip", "Cherry Blossom", "Lotus"]
-        ),
-        QuestionCasuzquiz(
-            question: "Which sea is known for its high salinity?",
-            correctAnswer: "Dead Sea",
-            answerOptions: ["Red Sea", "Black Sea", "Dead Sea", "Baltic Sea"]
-        ),
-        QuestionCasuzquiz(
-            question: "Who was the first woman to win a Nobel Prize?",
-            correctAnswer: "Marie Curie",
-            answerOptions: ["Marie Curie", "Rosalind Franklin", "Ada Lovelace", "Florence Nightingale"]
-        ),
-        QuestionCasuzquiz(
-            question: "What is the capital of Spain?",
-            correctAnswer: "Madrid",
-            answerOptions: ["Madrid", "Barcelona", "Seville", "Valencia"]
         ),
         QuestionCasuzquiz(
             question: "Which animal is known as the king of the jungle?",
@@ -468,224 +133,449 @@ struct QuestionCasuzquiz {
             answerOptions: ["Tiger", "Elephant", "Lion", "Bear"]
         ),
         QuestionCasuzquiz(
-            question: "Which country is home to the Great Barrier Reef?",
-            correctAnswer: "Australia",
-            answerOptions: ["Australia", "United States", "Mexico", "Thailand"]
+            question: "What is the largest ocean on Earth?",
+            correctAnswer: "Pacific Ocean",
+            answerOptions: ["Atlantic Ocean", "Indian Ocean", "Arctic Ocean", "Pacific Ocean"]
         ),
         QuestionCasuzquiz(
-            question: "What element does 'He' represent on the periodic table?",
-            correctAnswer: "Helium",
-            answerOptions: ["Hydrogen", "Helium", "Hafnium", "Hassium"]
+            question: "Who invented the telephone?",
+            correctAnswer: "Alexander Graham Bell",
+            answerOptions: ["Thomas Edison", "Nikola Tesla", "Alexander Graham Bell", "Michael Faraday"]
         ),
         QuestionCasuzquiz(
-            question: "Which planet has the most moons?",
-            correctAnswer: "Saturn",
-            answerOptions: ["Earth", "Mars", "Jupiter", "Saturn"]
-        ),
-        QuestionCasuzquiz(
-            question: "What is the largest animal on Earth?",
-            correctAnswer: "Blue whale",
-            answerOptions: ["Elephant", "Shark", "Blue whale", "Giraffe"]
-        ),
-        QuestionCasuzquiz(
-            question: "What color is the gemstone emerald?",
-            correctAnswer: "Green",
-            answerOptions: ["Red", "Blue", "Green", "Yellow"]
-        ),
-        QuestionCasuzquiz(
-            question: "Who was the first man to travel into space?",
-            correctAnswer: "Yuri Gagarin",
-            answerOptions: ["Neil Armstrong", "Yuri Gagarin", "Buzz Aldrin", "Michael Collins"]
-        ),
-        QuestionCasuzquiz(
-            question: "What is the capital of Germany?",
-            correctAnswer: "Berlin",
-            answerOptions: ["Berlin", "Munich", "Frankfurt", "Hamburg"]
-        ),
-        QuestionCasuzquiz(
-            question: "What is the most commonly used programming language for web development?",
-            correctAnswer: "JavaScript",
-            answerOptions: ["Java", "Python", "JavaScript", "Ruby"]
-        ),
-        QuestionCasuzquiz(
-            question: "What is the main component of the Sun?",
-            correctAnswer: "Hydrogen",
-            answerOptions: ["Helium", "Hydrogen", "Oxygen", "Carbon"]
-        ),
-        QuestionCasuzquiz(
-            question: "Which instrument is known as the 'king of instruments'?",
-            correctAnswer: "Pipe organ",
-            answerOptions: ["Piano", "Guitar", "Pipe organ", "Violin"]
-        ),
-        QuestionCasuzquiz(
-            question: "What is the smallest bone in the human body?",
-            correctAnswer: "Stapes",
-            answerOptions: ["Stapes", "Femur", "Tibia", "Humerus"]
-        ),
-        QuestionCasuzquiz(
-            question: "Which country is famous for sushi?",
-            correctAnswer: "Japan",
-            answerOptions: ["China", "South Korea", "Japan", "Vietnam"]
-        ),
-        QuestionCasuzquiz(
-            question: "What is the hottest planet in our solar system?",
-            correctAnswer: "Venus",
-            answerOptions: ["Earth", "Mercury", "Venus", "Mars"]
-        ),
-        QuestionCasuzquiz(
-            question: "What is the largest country in Africa by area?",
-            correctAnswer: "Algeria",
-            answerOptions: ["Egypt", "Sudan", "Algeria", "Democratic Republic of the Congo"]
-        ),
-        QuestionCasuzquiz(
-            question: "Which animal is known for its ability to change colors?",
-            correctAnswer: "Chameleon",
-            answerOptions: ["Cheetah", "Octopus", "Chameleon", "Tiger"]
-        ),
-        QuestionCasuzquiz(
-            question: "Who wrote the novel '1984'?",
-            correctAnswer: "George Orwell",
-            answerOptions: ["Aldous Huxley", "George Orwell", "J.K. Rowling", "Ernest Hemingway"]
-        ),
-        QuestionCasuzquiz(
-            question: "Which is the largest planet in our solar system?",
-            correctAnswer: "Jupiter",
-            answerOptions: ["Mars", "Jupiter", "Saturn", "Neptune"]
-        ),
-        QuestionCasuzquiz(
-            question: "What is the highest mountain in the world?",
+            question: "What is the tallest mountain in the world?",
             correctAnswer: "Mount Everest",
-            answerOptions: ["K2", "Mount Everest", "Mount Kilimanjaro", "Mount Fuji"]
+            answerOptions: ["Mount Kilimanjaro", "Mount Everest", "K2", "Mount Fuji"]
         ),
         QuestionCasuzquiz(
-            question: "Which vitamin is known as the sunshine vitamin?",
-            correctAnswer: "Vitamin D",
-            answerOptions: ["Vitamin A", "Vitamin B", "Vitamin C", "Vitamin D"]
+            question: "Which country is known for the Great Wall?",
+            correctAnswer: "China",
+            answerOptions: ["Japan", "China", "India", "South Korea"]
         ),
         QuestionCasuzquiz(
-            question: "What is the process by which plants make their food?",
-            correctAnswer: "Photosynthesis",
-            answerOptions: ["Respiration", "Photosynthesis", "Evaporation", "Transpiration"]
+            question: "Which continent is the Sahara Desert located on?",
+            correctAnswer: "Africa",
+            answerOptions: ["Asia", "Africa", "Australia", "North America"]
         ),
         QuestionCasuzquiz(
-            question: "Who developed the first successful polio vaccine?",
-            correctAnswer: "Jonas Salk",
-            answerOptions: ["Louis Pasteur", "Edward Jenner", "Jonas Salk", "Alexander Fleming"]
+            question: "What is the chemical symbol for water?",
+            correctAnswer: "H2O",
+            answerOptions: ["H2O", "CO2", "O2", "NaCl"]
         ),
         QuestionCasuzquiz(
-            question: "Which is the most populous city in the world?",
-            correctAnswer: "Tokyo",
-            answerOptions: ["Beijing", "Tokyo", "New York", "London"]
-        ),
-        QuestionCasuzquiz(
-            question: "What is the hardest known material in the world?",
-            correctAnswer: "Diamond",
-            answerOptions: ["Graphene", "Diamond", "Gold", "Iron"]
-        ),
-        QuestionCasuzquiz(
-            question: "Which gas do humans exhale during respiration?",
-            correctAnswer: "Carbon dioxide",
-            answerOptions: ["Oxygen", "Carbon dioxide", "Nitrogen", "Methane"]
-        ),
-        QuestionCasuzquiz(
-            question: "What is the most common blood type in humans?",
-            correctAnswer: "O positive",
-            answerOptions: ["O negative", "A positive", "O positive", "B positive"]
-        ),
-        QuestionCasuzquiz(
-            question: "Which animal is the largest land mammal?",
-            correctAnswer: "African elephant",
-            answerOptions: ["Asian elephant", "African elephant", "Rhinoceros", "Giraffe"]
-        ),
-        QuestionCasuzquiz(
-            question: "Which country invented the concept of democracy?",
-            correctAnswer: "Greece",
-            answerOptions: ["Greece", "Rome", "Egypt", "India"]
-        ),
-        QuestionCasuzquiz(
-            question: "What is the capital of Canada?",
-            correctAnswer: "Ottawa",
-            answerOptions: ["Toronto", "Ottawa", "Vancouver", "Montreal"]
+            question: "What is the largest planet in our solar system?",
+            correctAnswer: "Jupiter",
+            answerOptions: ["Saturn", "Earth", "Jupiter", "Mars"]
         ),
         QuestionCasuzquiz(
             question: "Who was the first president of the United States?",
             correctAnswer: "George Washington",
-            answerOptions: ["Thomas Jefferson", "Abraham Lincoln", "George Washington", "James Madison"]
+            answerOptions: ["Thomas Jefferson", "Abraham Lincoln", "George Washington", "John Adams"]
         ),
         QuestionCasuzquiz(
-            question: "Which fruit is known for having its seeds on the outside?",
-            correctAnswer: "Strawberry",
-            answerOptions: ["Blueberry", "Strawberry", "Raspberry", "Grape"]
+            question: "Which animal is the fastest land animal?",
+            correctAnswer: "Cheetah",
+            answerOptions: ["Lion", "Cheetah", "Horse", "Elephant"]
         ),
         QuestionCasuzquiz(
-            question: "What type of animal is a Komodo dragon?",
-            correctAnswer: "Lizard",
-            answerOptions: ["Snake", "Lizard", "Crocodile", "Alligator"]
-        ),
-        QuestionCasuzquiz(
-            question: "Which famous scientist developed the theory of general relativity?",
-            correctAnswer: "Albert Einstein",
-            answerOptions: ["Isaac Newton", "Nikola Tesla", "Galileo Galilei", "Albert Einstein"]
+            question: "In which year did World War II end?",
+            correctAnswer: "1945",
+            answerOptions: ["1939", "1940", "1945", "1950"]
         ),
         QuestionCasuzquiz(
             question: "What is the longest river in the world?",
-            correctAnswer: "Nile",
-            answerOptions: ["Amazon", "Nile", "Yangtze", "Mississippi"]
+            correctAnswer: "Nile River",
+            answerOptions: ["Amazon River", "Yangtze River", "Nile River", "Mississippi River"]
         ),
         QuestionCasuzquiz(
-            question: "What is the smallest country in the world by land area?",
-            correctAnswer: "Vatican City",
-            answerOptions: ["Monaco", "Vatican City", "San Marino", "Nauru"]
+            question: "Who painted the Mona Lisa?",
+            correctAnswer: "Leonardo da Vinci",
+            answerOptions: ["Pablo Picasso", "Vincent van Gogh", "Leonardo da Vinci", "Claude Monet"]
         ),
         QuestionCasuzquiz(
-            question: "Which animal is known for its ability to fly?",
-            correctAnswer: "Bat",
-            answerOptions: ["Bird", "Bat", "Insect", "Flying fish"]
+            question: "What is the freezing point of water in Celsius?",
+            correctAnswer: "0°C",
+            answerOptions: ["0°C", "32°F", "100°C", "-10°C"]
         ),
         QuestionCasuzquiz(
-            question: "What is the most common gas in Earth's atmosphere?",
+            question: "What is the primary gas found in the air we breathe?",
             correctAnswer: "Nitrogen",
-            answerOptions: ["Oxygen", "Carbon dioxide", "Nitrogen", "Argon"]
+            answerOptions: ["Oxygen", "Carbon Dioxide", "Nitrogen", "Argon"]
         ),
         QuestionCasuzquiz(
-            question: "Who wrote the play 'Romeo and Juliet'?",
-            correctAnswer: "William Shakespeare",
-            answerOptions: ["Charles Dickens", "Jane Austen", "William Shakespeare", "Homer"]
+            question: "What is the main ingredient in guacamole?",
+            correctAnswer: "Avocado",
+            answerOptions: ["Tomato", "Avocado", "Lime", "Garlic"]
         ),
         QuestionCasuzquiz(
-            question: "What is the capital of France?",
-            correctAnswer: "Paris",
-            answerOptions: ["London", "Berlin", "Paris", "Madrid"]
+            question: "Which city is known as 'The Big Apple'?",
+            correctAnswer: "New York City",
+            answerOptions: ["Los Angeles", "Chicago", "New York City", "San Francisco"]
         ),
         QuestionCasuzquiz(
-            question: "Which gas makes up most of Earth's atmosphere?",
-            correctAnswer: "Nitrogen",
-            answerOptions: ["Oxygen", "Carbon dioxide", "Nitrogen", "Hydrogen"]
+            question: "In what year did the Titanic sink?",
+            correctAnswer: "1912",
+            answerOptions: ["1900", "1910", "1912", "1920"]
+        ),
+        QuestionCasuzquiz(
+            question: "Who discovered penicillin?",
+            correctAnswer: "Alexander Fleming",
+            answerOptions: ["Marie Curie", "Isaac Newton", "Alexander Fleming", "Albert Einstein"]
+        ),
+        QuestionCasuzquiz(
+            question: "Which country is the birthplace of pizza?",
+            correctAnswer: "Italy",
+            answerOptions: ["France", "Italy", "Greece", "United States"]
+        ),
+        QuestionCasuzquiz(
+            question: "What is the capital city of Japan?",
+            correctAnswer: "Tokyo",
+            answerOptions: ["Seoul", "Beijing", "Tokyo", "Bangkok"]
+        ),
+        QuestionCasuzquiz(
+            question: "What is the chemical symbol for gold?",
+            correctAnswer: "Au",
+            answerOptions: ["Ag", "Au", "Pb", "Cu"]
+        ),
+        QuestionCasuzquiz(
+            question: "Which element has the atomic number 8?",
+            correctAnswer: "Oxygen",
+            answerOptions: ["Oxygen", "Nitrogen", "Carbon", "Hydrogen"]
+        ),
+        QuestionCasuzquiz(
+            question: "What is the chemical symbol for silver?",
+            correctAnswer: "Ag",
+            answerOptions: ["Ag", "Au", "Cu", "Pb"]
+        ),
+        QuestionCasuzquiz(
+            question: "Which organ in the human body is responsible for filtering blood?",
+            correctAnswer: "Kidneys",
+            answerOptions: ["Heart", "Lungs", "Liver", "Kidneys"]
+        ),
+        QuestionCasuzquiz(
+            question: "What is the main ingredient in sushi?",
+            correctAnswer: "Rice",
+            answerOptions: ["Rice", "Fish", "Seaweed", "Vegetables"]
         ),
         QuestionCasuzquiz(
             question: "Which country is the largest producer of coffee?",
             correctAnswer: "Brazil",
-            answerOptions: ["Brazil", "Vietnam", "Colombia", "Ethiopia"]
+            answerOptions: ["Vietnam", "Colombia", "Brazil", "Ethiopia"]
+        ),
+        QuestionCasuzquiz(
+            question: "Who invented the light bulb?",
+            correctAnswer: "Thomas Edison",
+            answerOptions: ["Nikola Tesla", "Alexander Graham Bell", "Thomas Edison", "Benjamin Franklin"]
+        ),
+        QuestionCasuzquiz(
+            question: "Which is the smallest continent by land area?",
+            correctAnswer: "Australia",
+            answerOptions: ["Europe", "Australia", "Antarctica", "Africa"]
+        ),
+        QuestionCasuzquiz(
+            question: "Which planet is known as the Morning Star?",
+            correctAnswer: "Venus",
+            answerOptions: ["Mars", "Venus", "Mercury", "Jupiter"]
+        ),
+        QuestionCasuzquiz(
+            question: "What is the freezing point of water in Fahrenheit?",
+            correctAnswer: "32°F",
+            answerOptions: ["32°F", "0°F", "100°F", "212°F"]
+        ),
+        QuestionCasuzquiz(
+            question: "Which famous scientist formulated the laws of motion?",
+            correctAnswer: "Isaac Newton",
+            answerOptions: ["Albert Einstein", "Galileo Galilei", "Isaac Newton", "Nikola Tesla"]
+        ),
+        QuestionCasuzquiz(
+            question: "In which country was the first modern Olympic Games held?",
+            correctAnswer: "Greece",
+            answerOptions: ["France", "United States", "Greece", "Italy"]
+        ),
+        QuestionCasuzquiz(
+            question: "Who is the author of the 'Harry Potter' series?",
+            correctAnswer: "J.K. Rowling",
+            answerOptions: ["J.R.R. Tolkien", "George R.R. Martin", "J.K. Rowling", "Suzanne Collins"]
+        ),
+        QuestionCasuzquiz(
+            question: "What is the primary gas found in Earth's atmosphere?",
+            correctAnswer: "Nitrogen",
+            answerOptions: ["Oxygen", "Nitrogen", "Carbon Dioxide", "Hydrogen"]
+        ),
+        QuestionCasuzquiz(
+            question: "Which country is the Eiffel Tower located in?",
+            correctAnswer: "France",
+            answerOptions: ["Italy", "Spain", "France", "Germany"]
+        ),
+        QuestionCasuzquiz(
+            question: "What is the longest river in the United States?",
+            correctAnswer: "Missouri River",
+            answerOptions: ["Mississippi River", "Missouri River", "Colorado River", "Ohio River"]
+        ),
+        QuestionCasuzquiz(
+            question: "What is the largest desert in the world?",
+            correctAnswer: "Antarctic Desert",
+            answerOptions: ["Sahara Desert", "Arabian Desert", "Gobi Desert", "Antarctic Desert"]
+        ),
+        QuestionCasuzquiz(
+            question: "Who was the first woman to fly solo across the Atlantic Ocean?",
+            correctAnswer: "Amelia Earhart",
+            answerOptions: ["Amelia Earhart", "Bessie Coleman", "Harriet Quimby", "Jacqueline Cochran"]
+        ),
+        QuestionCasuzquiz(
+            question: "Which instrument is used to measure atmospheric pressure?",
+            correctAnswer: "Barometer",
+            answerOptions: ["Thermometer", "Barometer", "Anemometer", "Altimeter"]
+        ),
+        QuestionCasuzquiz(
+            question: "Which is the most populous country in the world?",
+            correctAnswer: "China",
+            answerOptions: ["India", "China", "United States", "Russia"]
+        ),
+        QuestionCasuzquiz(
+            question: "Which vitamin is primarily obtained from sunlight?",
+            correctAnswer: "Vitamin D",
+            answerOptions: ["Vitamin A", "Vitamin C", "Vitamin D", "Vitamin E"]
+        ),
+        QuestionCasuzquiz(
+            question: "Who was the first man to walk on the moon?",
+            correctAnswer: "Neil Armstrong",
+            answerOptions: ["Buzz Aldrin", "Yuri Gagarin", "Neil Armstrong", "Michael Collins"]
+        ),
+        QuestionCasuzquiz(
+            question: "Which element is most abundant in the Earth's crust?",
+            correctAnswer: "Oxygen",
+            answerOptions: ["Oxygen", "Silicon", "Iron", "Aluminum"]
+        ),
+        QuestionCasuzquiz(
+            question: "What is the capital of Canada?",
+            correctAnswer: "Ottawa",
+            answerOptions: ["Toronto", "Vancouver", "Ottawa", "Montreal"]
+        ),
+        QuestionCasuzquiz(
+            question: "Which scientist is known for his work on electromagnetism?",
+            correctAnswer: "James Clerk Maxwell",
+            answerOptions: ["Albert Einstein", "James Clerk Maxwell", "Michael Faraday", "Nikola Tesla"]
+        ),
+        QuestionCasuzquiz(
+            question: "What is the national flower of Japan?",
+            correctAnswer: "Cherry Blossom",
+            answerOptions: ["Rose", "Cherry Blossom", "Tulip", "Lily"]
+        ),
+        QuestionCasuzquiz(
+            question: "What is the capital of Italy?",
+            correctAnswer: "Rome",
+            answerOptions: ["Florence", "Venice", "Rome", "Milan"]
         ),
         QuestionCasuzquiz(
             question: "What is the chemical symbol for oxygen?",
             correctAnswer: "O",
-            answerOptions: ["O", "O2", "O3", "Ox"]
+            answerOptions: ["O", "O2", "H2", "O3"]
         ),
         QuestionCasuzquiz(
             question: "Which country is known as the Land of the Rising Sun?",
             correctAnswer: "Japan",
-            answerOptions: ["South Korea", "China", "Japan", "India"]
+            answerOptions: ["China", "Japan", "South Korea", "Vietnam"]
         ),
         QuestionCasuzquiz(
-            question: "What element has the chemical symbol 'Na'?",
-            correctAnswer: "Sodium",
-            answerOptions: ["Sodium", "Nitrogen", "Neon", "Nickel"]
+            question: "Who discovered the circulation of blood?",
+            correctAnswer: "William Harvey",
+            answerOptions: ["Andreas Vesalius", "Hippocrates", "William Harvey", "Galen"]
         ),
         QuestionCasuzquiz(
-            question: "Which planet is known as the Red Planet?",
-            correctAnswer: "Mars",
-            answerOptions: ["Earth", "Mars", "Venus", "Saturn"]
+            question: "Which continent is known for the Amazon Rainforest?",
+            correctAnswer: "South America",
+            answerOptions: ["Africa", "Asia", "South America", "Australia"]
+        ),
+        QuestionCasuzquiz(
+            question: "Which ocean is the largest by surface area?",
+            correctAnswer: "Pacific Ocean",
+            answerOptions: ["Atlantic Ocean", "Indian Ocean", "Southern Ocean", "Pacific Ocean"]
+        ),
+        QuestionCasuzquiz(
+            question: "Which metal is used in the making of the Statue of Liberty?",
+            correctAnswer: "Copper",
+            answerOptions: ["Iron", "Copper", "Bronze", "Aluminum"]
+        ),
+        QuestionCasuzquiz(
+            question: "What is the chemical formula for methane?",
+            correctAnswer: "CH4",
+            answerOptions: ["C2H6", "CH4", "C6H12O6", "CO2"]
+        ),
+        QuestionCasuzquiz(
+            question: "What is the chemical symbol for silver?",
+            correctAnswer: "Ag",
+            answerOptions: ["Ag", "Au", "Cu", "Pb"]
+        ),
+        QuestionCasuzquiz(
+            question: "Which organ in the human body is responsible for filtering blood?",
+            correctAnswer: "Kidneys",
+            answerOptions: ["Heart", "Lungs", "Liver", "Kidneys"]
+        ),
+        QuestionCasuzquiz(
+            question: "Who was the first man in space?",
+            correctAnswer: "Yuri Gagarin",
+            answerOptions: ["Neil Armstrong", "Buzz Aldrin", "Yuri Gagarin", "Alan Shepard"]
+        ),
+        QuestionCasuzquiz(
+            question: "Which ocean is the smallest?",
+            correctAnswer: "Arctic Ocean",
+            answerOptions: ["Atlantic Ocean", "Indian Ocean", "Arctic Ocean", "Pacific Ocean"]
+        ),
+        QuestionCasuzquiz(
+            question: "What is the most common blood type in humans?",
+            correctAnswer: "O+",
+            answerOptions: ["A+", "B+", "O+", "AB+"]
+        ),
+        QuestionCasuzquiz(
+            question: "Who is known as the father of modern physics?",
+            correctAnswer: "Albert Einstein",
+            answerOptions: ["Isaac Newton", "Galileo Galilei", "Albert Einstein", "Niels Bohr"]
+        ),
+        QuestionCasuzquiz(
+            question: "What is the capital of Australia?",
+            correctAnswer: "Canberra",
+            answerOptions: ["Sydney", "Melbourne", "Canberra", "Brisbane"]
+        ),
+        QuestionCasuzquiz(
+            question: "Which animal can live the longest?",
+            correctAnswer: "Tortoise",
+            answerOptions: ["Elephant", "Whale", "Tortoise", "Lion"]
+        ),
+        QuestionCasuzquiz(
+            question: "What is the hardest natural substance on Earth?",
+            correctAnswer: "Diamond",
+            answerOptions: ["Gold", "Diamond", "Iron", "Platinum"]
+        ),
+        QuestionCasuzquiz(
+            question: "Who painted the famous work 'The Starry Night'?",
+            correctAnswer: "Vincent van Gogh",
+            answerOptions: ["Pablo Picasso", "Claude Monet", "Vincent van Gogh", "Leonardo da Vinci"]
+        ),
+        QuestionCasuzquiz(
+            question: "Which country is known for the pyramids?",
+            correctAnswer: "Egypt",
+            answerOptions: ["Mexico", "China", "Egypt", "Greece"]
+        ),
+        QuestionCasuzquiz(
+            question: "What is the largest country in the world by land area?",
+            correctAnswer: "Russia",
+            answerOptions: ["Canada", "United States", "China", "Russia"]
+        ),
+        QuestionCasuzquiz(
+            question: "What is the name of the longest river in South America?",
+            correctAnswer: "Amazon River",
+            answerOptions: ["Amazon River", "Mississippi River", "Yangtze River", "Nile River"]
+        ),
+        QuestionCasuzquiz(
+            question: "Which type of animal is the largest living creature on Earth?",
+            correctAnswer: "Blue Whale",
+            answerOptions: ["Elephant", "Giraffe", "Blue Whale", "Shark"]
+        ),
+        QuestionCasuzquiz(
+            question: "What is the tallest building in the world?",
+            correctAnswer: "Burj Khalifa",
+            answerOptions: ["Eiffel Tower", "Empire State Building", "Burj Khalifa", "Petronas Towers"]
+        ),
+        QuestionCasuzquiz(
+            question: "What is the currency of Japan?",
+            correctAnswer: "Yen",
+            answerOptions: ["Yuan", "Won", "Yen", "Ringgit"]
+        ),
+        QuestionCasuzquiz(
+            question: "Which element has the atomic number 6?",
+            correctAnswer: "Carbon",
+            answerOptions: ["Oxygen", "Nitrogen", "Carbon", "Hydrogen"]
+        ),
+        QuestionCasuzquiz(
+            question: "Who was the first woman to win a Nobel Prize?",
+            correctAnswer: "Marie Curie",
+            answerOptions: ["Marie Curie", "Rosalind Franklin", "Ada Lovelace", "Madame Curie"]
+        ),
+        QuestionCasuzquiz(
+            question: "Which is the smallest country in the world?",
+            correctAnswer: "Vatican City",
+            answerOptions: ["Monaco", "San Marino", "Vatican City", "Liechtenstein"]
+        ),
+        QuestionCasuzquiz(
+            question: "What is the official language of Brazil?",
+            correctAnswer: "Portuguese",
+            answerOptions: ["Spanish", "Portuguese", "English", "French"]
+        ),
+        QuestionCasuzquiz(
+            question: "Who developed the first successful polio vaccine?",
+            correctAnswer: "Jonas Salk",
+            answerOptions: ["Louis Pasteur", "Jonas Salk", "Albert Calmette", "Edward Jenner"]
+        ),
+        QuestionCasuzquiz(
+            question: "Which city is known as the 'Eternal City'?",
+            correctAnswer: "Rome",
+            answerOptions: ["Athens", "Paris", "Rome", "Jerusalem"]
+        ),
+        QuestionCasuzquiz(
+            question: "What is the chemical symbol for sodium?",
+            correctAnswer: "Na",
+            answerOptions: ["Na", "N", "S", "Sa"]
+        ),
+        QuestionCasuzquiz(
+            question: "Which country is famous for the 'Great Barrier Reef'?",
+            correctAnswer: "Australia",
+            answerOptions: ["United States", "Australia", "South Africa", "Mexico"]
+        ),
+        QuestionCasuzquiz(
+            question: "What is the name of the largest island in the world?",
+            correctAnswer: "Greenland",
+            answerOptions: ["Australia", "Greenland", "New Guinea", "Borneo"]
+        ),
+        QuestionCasuzquiz(
+            question: "Which planet is known as the 'Giant Red Spot' planet?",
+            correctAnswer: "Jupiter",
+            answerOptions: ["Saturn", "Jupiter", "Mars", "Neptune"]
+        ),
+        QuestionCasuzquiz(
+            question: "What is the capital of Spain?",
+            correctAnswer: "Madrid",
+            answerOptions: ["Barcelona", "Madrid", "Seville", "Valencia"]
+        ),
+        QuestionCasuzquiz(
+            question: "Which organ in the human body produces insulin?",
+            correctAnswer: "Pancreas",
+            answerOptions: ["Liver", "Heart", "Pancreas", "Kidneys"]
+        ),
+        QuestionCasuzquiz(
+            question: "Which bird is the symbol of peace?",
+            correctAnswer: "Dove",
+            answerOptions: ["Eagle", "Pigeon", "Owl", "Dove"]
+        ),
+        QuestionCasuzquiz(
+            question: "What is the capital of India?",
+            correctAnswer: "New Delhi",
+            answerOptions: ["Mumbai", "New Delhi", "Kolkata", "Bangalore"]
+        ),
+        QuestionCasuzquiz(
+            question: "What is the largest island country in the world?",
+            correctAnswer: "Indonesia",
+            answerOptions: ["Philippines", "Indonesia", "Japan", "New Zealand"]
+        ),
+        QuestionCasuzquiz(
+            question: "Which scientist is known for developing the theory of evolution?",
+            correctAnswer: "Charles Darwin",
+            answerOptions: ["Isaac Newton", "Charles Darwin", "Louis Pasteur", "Gregor Mendel"]
+        ),
+        QuestionCasuzquiz(
+            question: "Who wrote the novel '1984'?",
+            correctAnswer: "George Orwell",
+            answerOptions: ["Aldous Huxley", "J.K. Rowling", "George Orwell", "Ray Bradbury"]
+        ),
+        QuestionCasuzquiz(
+            question: "What is the capital of Canada?",
+            correctAnswer: "Ottawa",
+            answerOptions: ["Toronto", "Vancouver", "Ottawa", "Montreal"]
+        ),
+        QuestionCasuzquiz(
+            question: "What is the longest river in the world?",
+            correctAnswer: "Nile River",
+            answerOptions: ["Amazon River", "Yangtze River", "Nile River", "Mississippi River"]
         ),
         QuestionCasuzquiz(
             question: "What is the largest desert in the world?",
@@ -693,64 +583,269 @@ struct QuestionCasuzquiz {
             answerOptions: ["Gobi Desert", "Kalahari Desert", "Sahara Desert", "Atacama Desert"]
         ),
         QuestionCasuzquiz(
-            question: "What is the name of the first manned mission to land on the Moon?",
-            correctAnswer: "Apollo 11",
-            answerOptions: ["Apollo 11", "Gemini 4", "Mercury 7", "Luna 2"]
+            question: "Which planet is the closest to the Sun?",
+            correctAnswer: "Mercury",
+            answerOptions: ["Venus", "Earth", "Mercury", "Mars"]
+        ),
+        QuestionCasuzquiz(
+            question: "What is the most spoken language in the world?",
+            correctAnswer: "Mandarin Chinese",
+            answerOptions: ["English", "Spanish", "Mandarin Chinese", "Hindi"]
         ),
         QuestionCasuzquiz(
             question: "Who invented the telephone?",
             correctAnswer: "Alexander Graham Bell",
-            answerOptions: ["Thomas Edison", "Nikola Tesla", "Alexander Graham Bell", "Samuel Morse"]
+            answerOptions: ["Thomas Edison", "Alexander Graham Bell", "Nikola Tesla", "Guglielmo Marconi"]
         ),
         QuestionCasuzquiz(
-            question: "Which metal is liquid at room temperature?",
-            correctAnswer: "Mercury",
-            answerOptions: ["Mercury", "Copper", "Gold", "Lead"]
+            question: "Which animal is known as the King of the Jungle?",
+            correctAnswer: "Lion",
+            answerOptions: ["Elephant", "Tiger", "Lion", "Cheetah"]
         ),
         QuestionCasuzquiz(
-            question: "What is the national currency of Japan?",
-            correctAnswer: "Yen",
-            answerOptions: ["Yuan", "Yen", "Won", "Ringgit"]
+            question: "Who was the first President of the United States?",
+            correctAnswer: "George Washington",
+            answerOptions: ["Thomas Jefferson", "George Washington", "Abraham Lincoln", "John Adams"]
         ),
         QuestionCasuzquiz(
-            question: "Which type of tree produces acorns?",
-            correctAnswer: "Oak",
-            answerOptions: ["Pine", "Maple", "Oak", "Birch"]
-        ),
-        QuestionCasuzquiz(
-            question: "What is the longest human bone?",
-            correctAnswer: "Femur",
-            answerOptions: ["Humerus", "Femur", "Tibia", "Radius"]
+            question: "What is the largest planet in our solar system?",
+            correctAnswer: "Jupiter",
+            answerOptions: ["Earth", "Saturn", "Jupiter", "Neptune"]
         ),
         QuestionCasuzquiz(
             question: "Which country is home to the Great Wall?",
             correctAnswer: "China",
-            answerOptions: ["China", "India", "Japan", "Korea"]
+            answerOptions: ["China", "India", "Japan", "South Korea"]
         ),
         QuestionCasuzquiz(
-            question: "Which bird is famous for its ability to mimic human speech?",
+            question: "What is the currency of the United Kingdom?",
+            correctAnswer: "Pound Sterling",
+            answerOptions: ["Euro", "Pound Sterling", "Dollar", "Yen"]
+        ),
+        QuestionCasuzquiz(
+            question: "Which element has the chemical symbol 'O'?",
+            correctAnswer: "Oxygen",
+            answerOptions: ["Oxygen", "Osmium", "Ozone", "Oganesson"]
+        ),
+        QuestionCasuzquiz(
+            question: "What is the largest land animal?",
+            correctAnswer: "African Elephant",
+            answerOptions: ["Blue Whale", "Giraffe", "African Elephant", "Rhino"]
+        ),
+        QuestionCasuzquiz(
+            question: "Which continent is known as the 'Dark Continent'?",
+            correctAnswer: "Africa",
+            answerOptions: ["Asia", "Africa", "South America", "Australia"]
+        ),
+        QuestionCasuzquiz(
+            question: "What is the official language of Argentina?",
+            correctAnswer: "Spanish",
+            answerOptions: ["Portuguese", "Spanish", "Italian", "French"]
+        ),
+        QuestionCasuzquiz(
+            question: "Who was the first woman in space?",
+            correctAnswer: "Valentina Tereshkova",
+            answerOptions: ["Valentina Tereshkova", "Sally Ride", "Mae Jemison", "Yuri Gagarin"]
+        ),
+        QuestionCasuzquiz(
+            question: "What is the name of the longest mountain range in the world?",
+            correctAnswer: "Andes",
+            answerOptions: ["Himalayas", "Rocky Mountains", "Andes", "Alps"]
+        ),
+        QuestionCasuzquiz(
+            question: "Who painted the Mona Lisa?",
+            correctAnswer: "Leonardo da Vinci",
+            answerOptions: ["Vincent van Gogh", "Claude Monet", "Leonardo da Vinci", "Pablo Picasso"]
+        ),
+        QuestionCasuzquiz(
+            question: "Which chemical element has the symbol 'Fe'?",
+            correctAnswer: "Iron",
+            answerOptions: ["Ferrum", "Iron", "Francium", "Fluorine"]
+        ),
+        QuestionCasuzquiz(
+            question: "Who wrote the play 'Romeo and Juliet'?",
+            correctAnswer: "William Shakespeare",
+            answerOptions: ["William Shakespeare", "Charles Dickens", "Jane Austen", "Homer"]
+        ),
+        QuestionCasuzquiz(
+            question: "Which bird is known for its ability to mimic sounds?",
             correctAnswer: "Parrot",
-            answerOptions: ["Eagle", "Crow", "Parrot", "Pigeon"]
+            answerOptions: ["Eagle", "Parrot", "Penguin", "Owl"]
         ),
         QuestionCasuzquiz(
-            question: "What is the main ingredient in guacamole?",
-            correctAnswer: "Avocado",
-            answerOptions: ["Tomato", "Avocado", "Cucumber", "Onion"]
+            question: "What is the tallest waterfall in the world?",
+            correctAnswer: "Angel Falls",
+            answerOptions: ["Niagara Falls", "Victoria Falls", "Angel Falls", "Iguazu Falls"]
         ),
         QuestionCasuzquiz(
-            question: "What is the symbol for gold on the periodic table?",
+            question: "Which city is known as the City of Love?",
+            correctAnswer: "Paris",
+            answerOptions: ["Rome", "Paris", "Venice", "New York"]
+        ),
+        QuestionCasuzquiz(
+            question: "Which planet is known as the 'Red Planet'?",
+            correctAnswer: "Mars",
+            answerOptions: ["Mars", "Venus", "Saturn", "Jupiter"]
+        ),
+        QuestionCasuzquiz(
+            question: "Who discovered penicillin?",
+            correctAnswer: "Alexander Fleming",
+            answerOptions: ["Louis Pasteur", "Alexander Fleming", "Marie Curie", "Albert Einstein"]
+        ),
+        QuestionCasuzquiz(
+            question: "Which country is known as the 'Land of the Rising Sun'?",
+            correctAnswer: "Japan",
+            answerOptions: ["China", "South Korea", "Japan", "Thailand"]
+        ),
+        QuestionCasuzquiz(
+            question: "What is the most famous ancient wonder of the world?",
+            correctAnswer: "Great Pyramid of Giza",
+            answerOptions: ["Hanging Gardens of Babylon", "Statue of Zeus", "Great Pyramid of Giza", "Colossus of Rhodes"]
+        ),
+        QuestionCasuzquiz(
+            question: "Which city is the capital of Italy?",
+            correctAnswer: "Rome",
+            answerOptions: ["Venice", "Rome", "Milan", "Florence"]
+        ),
+        QuestionCasuzquiz(
+            question: "Who is credited with inventing the light bulb?",
+            correctAnswer: "Thomas Edison",
+            answerOptions: ["Nikola Tesla", "Thomas Edison", "Benjamin Franklin", "James Watt"]
+        ),
+        QuestionCasuzquiz(
+            question: "Which element is the most abundant in the Earth's crust?",
+            correctAnswer: "Oxygen",
+            answerOptions: ["Oxygen", "Silicon", "Aluminum", "Iron"]
+        ),
+        QuestionCasuzquiz(
+            question: "What is the fastest land animal?",
+            correctAnswer: "Cheetah",
+            answerOptions: ["Cheetah", "Lion", "Elephant", "Horse"]
+        ),
+        QuestionCasuzquiz(
+            question: "Which country has the most pyramids in the world?",
+            correctAnswer: "Sudan",
+            answerOptions: ["Egypt", "Sudan", "Mexico", "Peru"]
+        ),
+        QuestionCasuzquiz(
+            question: "Who discovered America in 1492?",
+            correctAnswer: "Christopher Columbus",
+            answerOptions: ["Christopher Columbus", "Ferdinand Magellan", "Marco Polo", "Leif Erikson"]
+        ),
+        QuestionCasuzquiz(
+            question: "What is the name of the first artificial satellite launched into space?",
+            correctAnswer: "Sputnik 1",
+            answerOptions: ["Apollo 11", "Sputnik 1", "Vostok 1", "Explorer 1"]
+        ),
+        QuestionCasuzquiz(
+            question: "Which country is the largest producer of coffee?",
+            correctAnswer: "Brazil",
+            answerOptions: ["Vietnam", "Brazil", "Colombia", "Ethiopia"]
+        ),
+        QuestionCasuzquiz(
+            question: "Who was the first man to step on the Moon?",
+            correctAnswer: "Neil Armstrong",
+            answerOptions: ["Buzz Aldrin", "Yuri Gagarin", "Neil Armstrong", "Michael Collins"]
+        ),
+        QuestionCasuzquiz(
+            question: "Which country invented pizza?",
+            correctAnswer: "Italy",
+            answerOptions: ["Greece", "Italy", "France", "United States"]
+        ),
+        QuestionCasuzquiz(
+            question: "Which scientist is known for developing the theory of evolution?",
+            correctAnswer: "Charles Darwin",
+            answerOptions: ["Isaac Newton", "Albert Einstein", "Galileo Galilei", "Charles Darwin"]
+        ),
+        QuestionCasuzquiz(
+            question: "What is the longest bone in the human body?",
+            correctAnswer: "Femur",
+            answerOptions: ["Femur", "Humerus", "Tibia", "Fibula"]
+        ),
+        QuestionCasuzquiz(
+            question: "Which planet is known as the 'Gas Giant'?",
+            correctAnswer: "Jupiter",
+            answerOptions: ["Mars", "Jupiter", "Saturn", "Venus"]
+        ),
+        QuestionCasuzquiz(
+            question: "What is the capital city of Spain?",
+            correctAnswer: "Madrid",
+            answerOptions: ["Barcelona", "Madrid", "Seville", "Valencia"]
+        ),
+        QuestionCasuzquiz(
+            question: "Who was the first female Prime Minister of the United Kingdom?",
+            correctAnswer: "Margaret Thatcher",
+            answerOptions: ["Theresa May", "Margaret Thatcher", "Queen Elizabeth II", "Victoria Beckham"]
+        ),
+        QuestionCasuzquiz(
+            question: "What is the chemical symbol for gold?",
             correctAnswer: "Au",
             answerOptions: ["Ag", "Au", "Cu", "Pb"]
         ),
         QuestionCasuzquiz(
-            question: "Which country is known for its kangaroos?",
-            correctAnswer: "Australia",
-            answerOptions: ["New Zealand", "South Africa", "Australia", "India"]
+            question: "Which city is famous for its Eiffel Tower?",
+            correctAnswer: "Paris",
+            answerOptions: ["Rome", "London", "Paris", "New York"]
         ),
         QuestionCasuzquiz(
-            question: "What is the speed of light in a vacuum?",
-            correctAnswer: "299,792 km/s",
-            answerOptions: ["300,000 km/s", "299,792 km/s", "299,792,458 m/s", "150,000 km/s"]
+            question: "Which ocean is the largest?",
+            correctAnswer: "Pacific Ocean",
+            answerOptions: ["Atlantic Ocean", "Indian Ocean", "Arctic Ocean", "Pacific Ocean"]
+        ),
+        QuestionCasuzquiz(
+            question: "Who wrote the famous novel '1984'?",
+            correctAnswer: "George Orwell",
+            answerOptions: ["George Orwell", "Aldous Huxley", "J.K. Rowling", "Mark Twain"]
+        ),
+        QuestionCasuzquiz(
+            question: "What is the hardest natural substance on Earth?",
+            correctAnswer: "Diamond",
+            answerOptions: ["Gold", "Platinum", "Diamond", "Iron"]
+        ),
+        QuestionCasuzquiz(
+            question: "Which animal is known for having a black and white striped pattern?",
+            correctAnswer: "Zebra",
+            answerOptions: ["Tiger", "Zebra", "Panda", "Giraffe"]
+        ),
+        QuestionCasuzquiz(
+            question: "Which famous scientist developed the laws of motion?",
+            correctAnswer: "Isaac Newton",
+            answerOptions: ["Albert Einstein", "Isaac Newton", "Galileo Galilei", "Marie Curie"]
+        ),
+        QuestionCasuzquiz(
+            question: "In which year did World War II end?",
+            correctAnswer: "1945",
+            answerOptions: ["1945", "1939", "1918", "1963"]
+        ),
+        QuestionCasuzquiz(
+            question: "What is the smallest country in the world?",
+            correctAnswer: "Vatican City",
+            answerOptions: ["Monaco", "Vatican City", "San Marino", "Liechtenstein"]
+        ),
+        QuestionCasuzquiz(
+            question: "Which is the most populous country in the world?",
+            correctAnswer: "China",
+            answerOptions: ["India", "China", "United States", "Indonesia"]
+        ),
+        QuestionCasuzquiz(
+            question: "Which musical instrument has 88 keys?",
+            correctAnswer: "Piano",
+            answerOptions: ["Guitar", "Violin", "Piano", "Flute"]
+        ),
+        QuestionCasuzquiz(
+            question: "What is the largest island in the world?",
+            correctAnswer: "Greenland",
+            answerOptions: ["Australia", "Greenland", "New Guinea", "Borneo"]
+        ),
+        QuestionCasuzquiz(
+            question: "Which sea is the saltiest?",
+            correctAnswer: "Dead Sea",
+            answerOptions: ["Red Sea", "Dead Sea", "Baltic Sea", "Caspian Sea"]
+        ),
+        QuestionCasuzquiz(
+            question: "Who is the author of the Harry Potter series?",
+            correctAnswer: "J.K. Rowling",
+            answerOptions: ["J.K. Rowling", "George R.R. Martin", "J.R.R. Tolkien", "Suzanne Collins"]
         )
     ]
 }

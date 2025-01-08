@@ -11,7 +11,7 @@ struct PrivacyViewCasuzquiz: View {
     @AppStorage("urlString") var urlString = ""
     
     var bg: Color {
-        urlString.isEmpty ? Color.hex("#8D1938"): .black
+        urlString.isEmpty ? Color.hex("#2A2345"): .black
     }
     
    var wtgv = 14143514514
