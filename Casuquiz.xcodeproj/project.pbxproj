@@ -1,0 +1,446 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F6FAD2872D2EE9BB003D3F7B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6FAD2812D2EE9BB003D3F7B /* Preview Assets.xcassets */; };
+		F6FAD2882D2EE9BB003D3F7B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6FAD2832D2EE9BB003D3F7B /* Assets.xcassets */; };
+		F6FAD2892D2EE9BB003D3F7B /* CasuquizApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6FAD2842D2EE9BB003D3F7B /* CasuquizApp.swift */; };
+		F6FAD28A2D2EE9BB003D3F7B /* ContentViewCasuzquiz.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6FAD2852D2EE9BB003D3F7B /* ContentViewCasuzquiz.swift */; };
+		F6FAD29C2D2EEA62003D3F7B /* privacy.html in Resources */ = {isa = PBXBuildFile; fileRef = F6FAD28E2D2EEA62003D3F7B /* privacy.html */; };
+		F6FAD29D2D2EEA62003D3F7B /* ImagePicker Casuzquiz.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6FAD2992D2EEA62003D3F7B /* ImagePicker Casuzquiz.swift */; };
+		F6FAD29E2D2EEA62003D3F7B /* PrivacyViewCasuzquiz.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6FAD28F2D2EEA62003D3F7B /* PrivacyViewCasuzquiz.swift */; };
+		F6FAD29F2D2EEA62003D3F7B /* NotificationCenterCasuzquiz.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6FAD2982D2EEA62003D3F7B /* NotificationCenterCasuzquiz.swift */; };
+		F6FAD2A02D2EEA62003D3F7B /* QuestionPickViewCasuzquiz.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6FAD2942D2EEA62003D3F7B /* QuestionPickViewCasuzquiz.swift */; };
+		F6FAD2A12D2EEA62003D3F7B /* FactsViewCasuzquiz.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6FAD2972D2EEA62003D3F7B /* FactsViewCasuzquiz.swift */; };
+		F6FAD2A22D2EEA62003D3F7B /* ProfileView Casuzquiz.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6FAD29A2D2EEA62003D3F7B /* ProfileView Casuzquiz.swift */; };
+		F6FAD2A32D2EEA62003D3F7B /* QuestionViewModelCasuzquiz.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6FAD2922D2EEA62003D3F7B /* QuestionViewModelCasuzquiz.swift */; };
+		F6FAD2A42D2EEA62003D3F7B /* ExtensionsCasuzquiz.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6FAD2962D2EEA62003D3F7B /* ExtensionsCasuzquiz.swift */; };
+		F6FAD2A52D2EEA62003D3F7B /* QuestionsViewCasuzquiz.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6FAD28C2D2EEA62003D3F7B /* QuestionsViewCasuzquiz.swift */; };
+		F6FAD2A62D2EEA62003D3F7B /* LoadingViewCasuzquiz.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6FAD28D2D2EEA62003D3F7B /* LoadingViewCasuzquiz.swift */; };
+		F6FAD2A72D2EEA62003D3F7B /* QuestionViewCasuzquiz.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6FAD2932D2EEA62003D3F7B /* QuestionViewCasuzquiz.swift */; };
+		F6FAD2A82D2EEA62003D3F7B /* WebViewCasuzquiz.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6FAD2902D2EEA62003D3F7B /* WebViewCasuzquiz.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F6FAD2702D2EE9B7003D3F7B /* Casuquiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Casuquiz.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6FAD2812D2EE9BB003D3F7B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F6FAD2832D2EE9BB003D3F7B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F6FAD2842D2EE9BB003D3F7B /* CasuquizApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CasuquizApp.swift; sourceTree = "<group>"; };
+		F6FAD2852D2EE9BB003D3F7B /* ContentViewCasuzquiz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewCasuzquiz.swift; sourceTree = "<group>"; };
+		F6FAD28B2D2EEA31003D3F7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		F6FAD28C2D2EEA62003D3F7B /* QuestionsViewCasuzquiz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionsViewCasuzquiz.swift; sourceTree = "<group>"; };
+		F6FAD28D2D2EEA62003D3F7B /* LoadingViewCasuzquiz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingViewCasuzquiz.swift; sourceTree = "<group>"; };
+		F6FAD28E2D2EEA62003D3F7B /* privacy.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = privacy.html; sourceTree = "<group>"; };
+		F6FAD28F2D2EEA62003D3F7B /* PrivacyViewCasuzquiz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivacyViewCasuzquiz.swift; sourceTree = "<group>"; };
+		F6FAD2902D2EEA62003D3F7B /* WebViewCasuzquiz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewCasuzquiz.swift; sourceTree = "<group>"; };
+		F6FAD2922D2EEA62003D3F7B /* QuestionViewModelCasuzquiz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionViewModelCasuzquiz.swift; sourceTree = "<group>"; };
+		F6FAD2932D2EEA62003D3F7B /* QuestionViewCasuzquiz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionViewCasuzquiz.swift; sourceTree = "<group>"; };
+		F6FAD2942D2EEA62003D3F7B /* QuestionPickViewCasuzquiz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionPickViewCasuzquiz.swift; sourceTree = "<group>"; };
+		F6FAD2962D2EEA62003D3F7B /* ExtensionsCasuzquiz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionsCasuzquiz.swift; sourceTree = "<group>"; };
+		F6FAD2972D2EEA62003D3F7B /* FactsViewCasuzquiz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactsViewCasuzquiz.swift; sourceTree = "<group>"; };
+		F6FAD2982D2EEA62003D3F7B /* NotificationCenterCasuzquiz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationCenterCasuzquiz.swift; sourceTree = "<group>"; };
+		F6FAD2992D2EEA62003D3F7B /* ImagePicker Casuzquiz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ImagePicker Casuzquiz.swift"; sourceTree = "<group>"; };
+		F6FAD29A2D2EEA62003D3F7B /* ProfileView Casuzquiz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ProfileView Casuzquiz.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F6FAD26D2D2EE9B7003D3F7B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F6FAD2672D2EE9B7003D3F7B = {
+			isa = PBXGroup;
+			children = (
+				F6FAD2862D2EE9BB003D3F7B /* Casuquiz */,
+				F6FAD2712D2EE9B7003D3F7B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F6FAD2712D2EE9B7003D3F7B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F6FAD2702D2EE9B7003D3F7B /* Casuquiz.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F6FAD2822D2EE9BB003D3F7B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F6FAD2812D2EE9BB003D3F7B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F6FAD2862D2EE9BB003D3F7B /* Casuquiz */ = {
+			isa = PBXGroup;
+			children = (
+				F6FAD28B2D2EEA31003D3F7B /* Info.plist */,
+				F6FAD2842D2EE9BB003D3F7B /* CasuquizApp.swift */,
+				F6FAD2852D2EE9BB003D3F7B /* ContentViewCasuzquiz.swift */,
+				F6FAD28C2D2EEA62003D3F7B /* QuestionsViewCasuzquiz.swift */,
+				F6FAD2912D2EEA62003D3F7B /* Loading Casuzquiz */,
+				F6FAD2952D2EEA62003D3F7B /* Questions Casuzquiz */,
+				F6FAD2962D2EEA62003D3F7B /* ExtensionsCasuzquiz.swift */,
+				F6FAD2972D2EEA62003D3F7B /* FactsViewCasuzquiz.swift */,
+				F6FAD2982D2EEA62003D3F7B /* NotificationCenterCasuzquiz.swift */,
+				F6FAD29B2D2EEA62003D3F7B /* Profile Casuzquiz */,
+				F6FAD2832D2EE9BB003D3F7B /* Assets.xcassets */,
+				F6FAD2822D2EE9BB003D3F7B /* Preview Content */,
+			);
+			path = Casuquiz;
+			sourceTree = "<group>";
+		};
+		F6FAD2912D2EEA62003D3F7B /* Loading Casuzquiz */ = {
+			isa = PBXGroup;
+			children = (
+				F6FAD28D2D2EEA62003D3F7B /* LoadingViewCasuzquiz.swift */,
+				F6FAD28E2D2EEA62003D3F7B /* privacy.html */,
+				F6FAD28F2D2EEA62003D3F7B /* PrivacyViewCasuzquiz.swift */,
+				F6FAD2902D2EEA62003D3F7B /* WebViewCasuzquiz.swift */,
+			);
+			path = "Loading Casuzquiz";
+			sourceTree = "<group>";
+		};
+		F6FAD2952D2EEA62003D3F7B /* Questions Casuzquiz */ = {
+			isa = PBXGroup;
+			children = (
+				F6FAD2922D2EEA62003D3F7B /* QuestionViewModelCasuzquiz.swift */,
+				F6FAD2932D2EEA62003D3F7B /* QuestionViewCasuzquiz.swift */,
+				F6FAD2942D2EEA62003D3F7B /* QuestionPickViewCasuzquiz.swift */,
+			);
+			path = "Questions Casuzquiz";
+			sourceTree = "<group>";
+		};
+		F6FAD29B2D2EEA62003D3F7B /* Profile Casuzquiz */ = {
+			isa = PBXGroup;
+			children = (
+				F6FAD2992D2EEA62003D3F7B /* ImagePicker Casuzquiz.swift */,
+				F6FAD29A2D2EEA62003D3F7B /* ProfileView Casuzquiz.swift */,
+			);
+			path = "Profile Casuzquiz";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F6FAD26F2D2EE9B7003D3F7B /* Casuquiz */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6FAD27E2D2EE9B8003D3F7B /* Build configuration list for PBXNativeTarget "Casuquiz" */;
+			buildPhases = (
+				F6FAD26C2D2EE9B7003D3F7B /* Sources */,
+				F6FAD26D2D2EE9B7003D3F7B /* Frameworks */,
+				F6FAD26E2D2EE9B7003D3F7B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Casuquiz;
+			packageProductDependencies = (
+			);
+			productName = Casuquiz;
+			productReference = F6FAD2702D2EE9B7003D3F7B /* Casuquiz.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F6FAD2682D2EE9B7003D3F7B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					F6FAD26F2D2EE9B7003D3F7B = {
+						CreatedOnToolsVersion = 16.0;
+					};
+				};
+			};
+			buildConfigurationList = F6FAD26B2D2EE9B7003D3F7B /* Build configuration list for PBXProject "Casuquiz" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F6FAD2672D2EE9B7003D3F7B;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = F6FAD2712D2EE9B7003D3F7B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F6FAD26F2D2EE9B7003D3F7B /* Casuquiz */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F6FAD26E2D2EE9B7003D3F7B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6FAD2872D2EE9BB003D3F7B /* Preview Assets.xcassets in Resources */,
+				F6FAD29C2D2EEA62003D3F7B /* privacy.html in Resources */,
+				F6FAD2882D2EE9BB003D3F7B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F6FAD26C2D2EE9B7003D3F7B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6FAD29D2D2EEA62003D3F7B /* ImagePicker Casuzquiz.swift in Sources */,
+				F6FAD29E2D2EEA62003D3F7B /* PrivacyViewCasuzquiz.swift in Sources */,
+				F6FAD29F2D2EEA62003D3F7B /* NotificationCenterCasuzquiz.swift in Sources */,
+				F6FAD2A02D2EEA62003D3F7B /* QuestionPickViewCasuzquiz.swift in Sources */,
+				F6FAD2A12D2EEA62003D3F7B /* FactsViewCasuzquiz.swift in Sources */,
+				F6FAD2A22D2EEA62003D3F7B /* ProfileView Casuzquiz.swift in Sources */,
+				F6FAD2A32D2EEA62003D3F7B /* QuestionViewModelCasuzquiz.swift in Sources */,
+				F6FAD2A42D2EEA62003D3F7B /* ExtensionsCasuzquiz.swift in Sources */,
+				F6FAD2A52D2EEA62003D3F7B /* QuestionsViewCasuzquiz.swift in Sources */,
+				F6FAD2A62D2EEA62003D3F7B /* LoadingViewCasuzquiz.swift in Sources */,
+				F6FAD2A72D2EEA62003D3F7B /* QuestionViewCasuzquiz.swift in Sources */,
+				F6FAD2A82D2EEA62003D3F7B /* WebViewCasuzquiz.swift in Sources */,
+				F6FAD2892D2EE9BB003D3F7B /* CasuquizApp.swift in Sources */,
+				F6FAD28A2D2EE9BB003D3F7B /* ContentViewCasuzquiz.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F6FAD27C2D2EE9B8003D3F7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F6FAD27D2D2EE9B8003D3F7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F6FAD27F2D2EE9B8003D3F7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Casuquiz/Preview Content\"";
+				DEVELOPMENT_TEAM = FWVBV65566;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Casuquiz/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Casuzquiz;
+				INFOPLIST_KEY_NSCameraUsageDescription = "We need access to the camera to set a photo for your profile.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = testleschenko;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		F6FAD2802D2EE9B8003D3F7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Casuquiz/Preview Content\"";
+				DEVELOPMENT_TEAM = FWVBV65566;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Casuquiz/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Casuzquiz;
+				INFOPLIST_KEY_NSCameraUsageDescription = "We need access to the camera to set a photo for your profile.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = testleschenko;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F6FAD26B2D2EE9B7003D3F7B /* Build configuration list for PBXProject "Casuquiz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6FAD27C2D2EE9B8003D3F7B /* Debug */,
+				F6FAD27D2D2EE9B8003D3F7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F6FAD27E2D2EE9B8003D3F7B /* Build configuration list for PBXNativeTarget "Casuquiz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6FAD27F2D2EE9B8003D3F7B /* Debug */,
+				F6FAD2802D2EE9B8003D3F7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F6FAD2682D2EE9B7003D3F7B /* Project object */;
+}
